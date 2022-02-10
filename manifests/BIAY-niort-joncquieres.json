@@ -1,0 +1,99 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-niort-joncquieres.json",
+  "@type" : "sc:Manifest",
+  "label" : "Watercolour of Niort’s Castle (France) by Tavernier de Jonquières (17..) ",
+  "metadata" : [ {
+    "label" : "Repository",
+    "value" : "Bibliothèque nationale de France"
+  }, {
+    "label" : "Sources Images",
+    "value" : "https://gallica.bnf.fr/ark:/12148/btv1b7741772w"
+  }, {
+    "label" : "Shelfmark",
+    "value" : "Bibliothèque nationale de France, département Estampes et photographie, EST RESERVE VE-26 (M)"
+  }, {
+    "label" : "Title",
+    "value" : "Niort. Vue d'un chateau fort... : [drawing] / Tavernier D. J. Del."
+  }, {
+    "label" : "Date",
+    "value" : "17.."
+  }, {
+    "label" : "Format",
+    "value" : "Pen-and-ink drawing, watercolour, 17,5 x 24,2 cm"
+  }, {
+    "label" : "Creator",
+    "value" : "Tavernier de Jonquières (17..-17.. ; dessinateur)"
+  }, {
+    "label" : "Type",
+    "value" : "Drawing"
+  } ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Sébastien Biay",
+  "sequences" : [ {
+    "@id" : "http://0ea5c31e-4807-4fdc-a1b8-c7f0b0f120ae",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a9837a0f-5a8a-48b8-9c08-f551ee241785",
+      "@type" : "sc:Canvas",
+      "label" : "Recto",
+      "height" : 2048,
+      "width" : 2724,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5fd43bae-2c9c-4360-bf36-44a9fe4cb8c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b7741772w/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b7741772w/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 2048,
+          "width" : 2724
+        },
+        "on" : "http://a9837a0f-5a8a-48b8-9c08-f551ee241785"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1cc1acdc-c3b5-4656-9a63-c525e96d4abe",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : "2048",
+      "width" : "2788",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e143e569-98db-4ad9-bca4-c30f7d5aa68d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b7741772w/f2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b7741772w/f2",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 2048,
+          "width" : 2788
+        },
+        "on" : "http://1cc1acdc-c3b5-4656-9a63-c525e96d4abe"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
