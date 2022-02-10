@@ -7,10 +7,6 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "@type" : "sc:Manifest",
-    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-niort-joncquieres.json",
-    "label" : "Watercolour of Niort’s Castle (France) by Tavernier de Jonquières (17..) "
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-niort-tassin.json",
     "label" : "City view of Niort (France) by Christophe Tassin (1634-1657)"
   }, {
