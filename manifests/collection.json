@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-niort-tassin.json",
     "label" : "City view of Niort (France) by Christophe Tassin (1634-1657)"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-poitiers-tassin.json",
+    "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)"
   } ]
 }
