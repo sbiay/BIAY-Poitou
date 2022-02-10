@@ -23,7 +23,7 @@
     "value" : "Pen-and-ink drawing, watercolour, 17,5 x 24,2 cm"
   }, {
     "label" : "Creator",
-    "value" : "Tavernier de Jonquières (17..-17.. ; dessinateur)"
+    "value" : "Tavernier de Jonquières (17..-17..)"
   }, {
     "label" : "Type",
     "value" : "Drawing"
@@ -70,7 +70,7 @@
     }, {
       "@id" : "http://1cc1acdc-c3b5-4656-9a63-c525e96d4abe",
       "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
+      "label" : "Verso",
       "height" : "2048",
       "width" : "2788",
       "images" : [ {
