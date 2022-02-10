@@ -1,0 +1,13 @@
+{
+  "id" : "https://sbiay.github.io/BIAY-Poitou/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sbiay/BIAY-Poitou project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-poitiers-tassin-edit.json",
+    "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)"
+  } ]
+}
