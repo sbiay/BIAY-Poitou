@@ -1,0 +1,79 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-poitiers-tassin.json",
+  "@type" : "sc:Manifest",
+  "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)",
+  "metadata" : [ {
+    "label" : "Repository",
+    "value" : "Poitiers, Bibliothèques universitaires"
+  }, {
+    "label" : "Sources Images",
+    "value" : "https://archive.org/details/01_20220210_20220210_0731"
+  }, {
+    "label" : "Shelfmark",
+    "value" : "FAP 4345"
+  }, {
+    "label" : "Title",
+    "value" : "Poictiers"
+  }, {
+    "label" : "Date",
+    "value" : "16.."
+  }, {
+    "label" : "Format",
+    "value" : "Engraving, dimensions unknown"
+  }, {
+    "label" : "Creator",
+    "value" : "Tassin, Christophe (16..-1660)"
+  }, {
+    "label" : "Type",
+    "value" : "Engraving"
+  }, {
+    "label" : "Relation",
+    "value" : "Contained in Plans et profilz des principales villes de la province de Poictou / Christophe Tassin.- [Paris]‎, [16..]. (Les plans et profils de toutes les principales villes et lieux considerables de France; 8)"
+  }, {
+    "label" : "Locator",
+    "value" : "pl21"
+  } ],
+  "description" : [ {
+    "@value" : "City view of Poitiers from the south in the 17th century. The Clain river at the foreground, with the bridge leading to the Tison door.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Sébastien Biay",
+  "sequences" : [ {
+    "@id" : "http://d354cb59-5da5-4aff-92b8-cb72da1a5db6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a2080e8d-0403-4590-bfbe-237c71421003",
+      "@type" : "sc:Canvas",
+      "label" : "unframed",
+      "height" : 2711,
+      "width" : 3882,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e269c134-f95d-4a90-afca-4a46887dfc45",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2711,
+          "width" : 3882
+        },
+        "on" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
