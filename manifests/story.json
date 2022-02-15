@@ -5,12 +5,16 @@
   "label" : "A Visual History of Poitou in the Seventeeth Century",
   "metadata" : [
     {
-      "label" : "Project Context",
-      "value" : "[3IF assignement]"
+      "label" : "Context Title",
+      "value" : "3IF Assignement"
+    },
+    {
+      "label" : "Context Frame",
+      "value" : "Master's Degree 'Technologies numériques appliquées à l'histoire'"
     }
   ],
   "description" : [ {
-    "@value" : "[Edit description]",
+    "@value" : "Map and city views from Poitou engraved in the seventeenth century by Christophe Tassin and Frans Hogenberg, documenting toponyms and medieval monuments from Niort and Poitiers.",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
@@ -108,7 +112,7 @@
         "value" : "City view"
       }, {
         "label" : "Relation",
-        "value" : "Belongs to the collection of Gaston d'Orléans containing the description of the realm of France, part 3, 67"
+        "value" : "Belongs to the Gaston d'Orléans' collection containing the description of the realm of France, part 3, 67"
       } ],
       "description" : [ {
         "@value" : "[Click to edit description]",
@@ -194,7 +198,7 @@
     }, {
       "@id" : "http://29ba2561-061f-485d-a423-723e67d2b2c1",
       "@type" : "sc:Canvas",
-      "label" : "City views of Montpellier, Tours and Poitiers by Hogenberg, Frans (1539?-1590?)",
+      "label" : "City views of Montpellier, Tours and Poitiers by Frans Hogenberg (1539?-1590?)",
       "height" : 4900,
       "width" : 6484,
       "metadata" : [ {
