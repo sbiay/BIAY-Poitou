@@ -11,10 +11,6 @@
     "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)"
   }, {
     "@type" : "sc:Manifest",
-    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-poitou-tassin.json",
-    "label" : "Map of Poitou, Saintonge, Aunis and Angoumois (France) by Christophe Tassin (1636-1638 )"
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json",
     "label" : "A Visual History of Poitou in the Seventeeth Century"
   } ]
