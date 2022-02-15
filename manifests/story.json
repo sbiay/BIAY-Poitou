@@ -3,9 +3,14 @@
   "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json",
   "@type" : "sc:Manifest",
   "label" : "A Visual History of Poitou in the Seventeeth Century",
-  "metadata" : [ ],
+  "metadata" : [
+    {
+      "label" : "Project Context",
+      "value" : "[3IF assignement]"
+    }
+  ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "[Edit description]",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
@@ -40,7 +45,7 @@
         "value" : "1636-1638"
       }, {
         "label" : "Format",
-        "value" : "1 map, 10,5 x 15,5 cm"
+        "value" : "1 map; 10,5 x 15,5 cm"
       }, {
         "label" : "Creator",
         "value" : "Tassin, Christophe (16..-1660)"
@@ -88,7 +93,7 @@
         "value" : "Bibliothèque nationale de France, département Cartes et plans, GE BB-246 (XI, 67)"
       }, {
         "label" : "Title",
-        "value" : "[City view of Niort]"
+        "value" : "Nior en Poictou"
       }, {
         "label" : "Date",
         "value" : "1634-1657"
@@ -100,7 +105,7 @@
         "value" : "Tassin, Christophe (16..-1660)"
       }, {
         "label" : "Type",
-        "value" : "Engraving"
+        "value" : "City view"
       }, {
         "label" : "Relation",
         "value" : "Belongs to the collection of Gaston d'Orléans containing the description of the realm of France, part 3, 67"
@@ -158,7 +163,7 @@
         "value" : "Tassin, Christophe (16..-1660)"
       }, {
         "label" : "Type",
-        "value" : "Engraving"
+        "value" : "City view"
       }, {
         "label" : "Relation",
         "value" : "Contained in Plans et profilz des principales villes de la province de Poictou / Christophe Tassin.- [Paris]‎, [16..]. (Les plans et profils de toutes les principales villes et lieux considerables de France; 8)"
@@ -217,7 +222,7 @@
       }, {
         "label" : "Format",
         "value" : [ {
-          "@value" : "3 city view: ill., col. ; 41 x 54 cm"
+          "@value" : "3 city views: engraving, colour; 41 x 54 cm"
         }, {
           "@value" : "image/jpeg"
         } ]
@@ -233,7 +238,7 @@
         "value" : "Contained in Théâtre des cités du monde; 9"
       }, {
         "label" : "Type",
-        "value" : "Engraving"
+        "value" : "City view"
       } ],
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
