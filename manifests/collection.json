@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/BIAY-niort-joncquieres.json",
     "label" : "Watercolour of Niort’s Castle (France) by Tavernier de Jonquières (17..) "
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json",
+    "label" : "A Visual History of Poitou in the Seventeeth Century"
   } ]
 }
