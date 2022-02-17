@@ -2,14 +2,14 @@
   "@type" : "sc:AnnotationList",
   "resources" : [ {
     "resource" : [ {
-      "http://dev.llgc.org.uk/sas/full_text" : "Niort (Deux-S&egrave;vres)\n<a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice",
+      "http://dev.llgc.org.uk/sas/full_text" : "Niort\n<a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice",
       "@type" : "dctypes:Text",
       "format" : "text/html",
-      "chars" : "<p>Niort (Deux-S&egrave;vres)</p>\n<p><a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice</a></p>"
+      "chars" : "<p>Name form: Niort;</p>\n<p>Earliest attestation: present document;</p>\n<p><a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice</a></p>"
     }, {
-      "http://dev.llgc.org.uk/sas/full_text" : "Niort",
+      "http://dev.llgc.org.uk/sas/full_text" : "Niort (Deux-Sèvres)",
       "@type" : "oa:Tag",
-      "chars" : "Niort"
+      "chars" : "Niort (Deux-Sèvres)"
     } ],
     "@type" : "oa:Annotation",
     "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
@@ -42,7 +42,7 @@
       "http://dev.llgc.org.uk/sas/full_text" : "Name form: CevreEarliest attestation: present document<a href=\"https://dicotopo.cths.fr/places/P92795529\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record",
       "@type" : "dctypes:Text",
       "format" : "text/html",
-      "chars" : "<p>Name form: Cevre<br />Earliest attestation: present document<br /><a href=\"https://dicotopo.cths.fr/places/P92795529\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a></p>"
+      "chars" : "<p>Name form: Cevre;<br />Earliest attestation: present document;<br /><a href=\"https://dicotopo.cths.fr/places/P92795529\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.</a></p>"
     }, {
       "http://dev.llgc.org.uk/sas/full_text" : "Sèvre-Niortaise (La)",
       "@type" : "oa:Tag",
@@ -79,7 +79,7 @@
       "http://dev.llgc.org.uk/sas/full_text" : "Name form: PartenayEarliest attestation: 1202<a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record",
       "@type" : "dctypes:Text",
       "format" : "text/html",
-      "chars" : "<p>Name form: Partenay<br />Earliest attestation: 1202<br /><a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a></p>"
+      "chars" : "<p>Name form: Partenay;<br />Earliest attestation: 1202;<br /><a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.</a></p>"
     }, {
       "http://dev.llgc.org.uk/sas/full_text" : "Parthenay (Deux-Sèvres)",
       "@type" : "oa:Tag",
