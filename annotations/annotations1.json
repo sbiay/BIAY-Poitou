@@ -1,0 +1,339 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Baigneux;Earliest attestation: 1464;<a href=\"https://dicotopo.cths.fr/places/P32946404\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Baigneux</strong>;<br />Earliest attestation: 1464;<br /><a href=\"https://dicotopo.cths.fr/places/P32946404\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Bignoux (Vienne)",
+      "@type" : "oa:Tag",
+      "chars" : "Bignoux (Vienne)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:44:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105471836",
+    "dcterms:modified" : "2022-02-17T14:00:28",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1715,581,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1719.28659,594.63768c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_adb54cbe-0bbe-4013-8f35-14ae74cf2a8b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Niort;Earliest attestation: present document;<a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Niort</strong>;<br />Earliest attestation: present document;<br /><a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice</a></p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Niort (Deux-Sèvres)",
+      "@type" : "oa:Tag",
+      "chars" : "Niort (Deux-Sèvres)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:33:23",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104803513",
+    "dcterms:modified" : "2022-02-17T14:00:03",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1154,799,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1158.3775,812.8195c0,-3.0303 1.51515,-6.06063 4.54545,-9.09093c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06063 4.54545,9.09093z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_cdf47732-ee97-46a9-b200-421d18f06b44\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Sèvre Niortaise (La)",
+      "@type" : "oa:Tag",
+      "chars" : "Sèvre Niortaise (La)"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Ligneure;<a href=\"https://dicotopo.cths.fr/places/P14553352\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record;Former name of the S&egrave;vre Niortaise (today an affluent), cf. map from Pictonum, vicinarumque regionum fidissa, auctore Petro Rogiero&hellip;, 1590 (<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b53223539k/f1\" target=\"_blank\" rel=\"noopener\">Gallica).\n<img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b53223539k/f1/2372,2248,494,371/400,/0/default.jpg\" alt=\"Poitou. Pictonum, vicinarumque regionum fidissa. descriptio, auctore... Petro Rogiero\" width=\"400\" height=\"300\" />",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Ligneure</strong>;<br /><a href=\"https://dicotopo.cths.fr/places/P14553352\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>;<br />Former name of the <strong>S&egrave;vre Niortaise </strong>(today an affluent), cf. map from <em>Pictonum, vicinarumque regionum fidissa, auctore Petro Rogiero</em>&hellip;, 1590 (<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b53223539k/f1\" target=\"_blank\" rel=\"noopener\">Gallica</a>).</p>\n<p><img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b53223539k/f1/2372,2248,494,371/400,/0/default.jpg\" alt=\"Poitou. Pictonum, vicinarumque regionum fidissa. descriptio, auctore... Petro Rogiero\" width=\"400\" height=\"300\" /></p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-02-17T17:14:32",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645118072811",
+    "dcterms:modified" : "2022-02-17T17:14:32",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=937,750,456,125"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1376.31331,874.60516c0,-1.55269 0.13699,-18.95392 0,-19.09091c-2.05714,-2.05714 -4.12346,-1.88328 -5.45455,-4.54545c-1.35959,-2.71918 0,-9.5216 0,-12.72727c0,-7.12091 -4.27827,-15.347 -1.81818,-22.72727c1.1771,-3.53129 8.19394,-4.5697 10,-8.18182c2.38985,-4.77971 2.06514,-10.49392 4.54545,-15.45455c1.80556,-3.61113 7.64266,-5.65524 9.09091,-10c3.78825,-11.36475 -4.47798,-17.0703 -7.27273,-25.45455c-0.74294,-2.22882 -3.80251,0.41064 -4.54545,-1.81818c-0.56601,-1.69804 -0.29384,-3.02111 -1.81818,-4.54545c-0.42869,-0.42869 -10.24484,6.74828 -11.81818,7.27273c-5.27334,1.75778 -8.03209,0.60964 -10.90909,6.36364c-1.41842,2.83685 2.12645,10.60082 0,12.72727c-6.05303,6.05303 -7.77597,15.55194 -11.81818,23.63636c-1.06869,2.13738 -4.70312,2.29117 -5.45455,4.54545c-0.43811,1.31433 -0.58241,5.53979 -1.81818,6.36364c-6.17767,4.11845 -18.95217,1.86443 -24.54545,0c-12.2718,-4.0906 -23.52632,3.58134 -32.72727,8.18182c-4.04173,2.02087 -6.91463,-7.1832 -10.90909,-8.18182c-6.16114,-1.54028 -13.99436,2.00188 -20,0c-2.99136,-0.99712 -6.24249,-4.03034 -9.09091,-5.45455c-3.16754,-1.58377 -10.11877,0.79032 -12.72727,-1.81818c-4.05661,-4.05661 -7.88242,-9.49737 -12.72727,-12.72727c-3.99533,-2.66355 -8.35972,-2.90517 -10.90909,-5.45455c-2.79498,-2.79498 0.72224,-8.55553 -0.90909,-11.81818c-2.64354,-5.28709 -8.03418,-14.92618 -12.72727,-17.27273c-1.95741,-0.97871 -7.63091,-0.35818 -9.09091,-1.81818c-1.60674,-1.60674 -5.98641,-4.27952 -9.09091,-2.72727c-7.28229,3.64115 -8.72986,10.14701 -14.54545,13.63636c-2.63113,1.57868 -11.33481,0.85145 -12.72727,3.63636c-1.0707,2.14141 3.72175,4.63084 4.54545,5.45455c0.9755,0.9755 0,10.45763 0,11.81818c0,2.41286 2.72727,1.57665 2.72727,4.54545c0,0.60606 0,1.21212 0,1.81818c0,0.60606 0.27104,1.2761 0,1.81818c-2.28358,4.56716 -11.97573,8.65446 -13.63636,13.63636c-0.97654,2.92961 0.56504,6.14265 -0.90909,9.09091c-1.80703,3.61406 -8.83571,6.50714 -10,10c-1.12224,3.36671 -0.19606,5.65061 -2.72727,8.18182c-0.74347,0.74347 -13.28169,0.35468 -13.63636,0c-2.91049,-2.91049 -7.06091,-12.79788 -12.72727,-10.90909c-7.62122,2.54041 -12.80299,13.42802 -20.90909,15.45455c-4.75555,1.18889 -10.78918,0.05995 -14.54545,-1.81818c-7.91819,-3.9591 -21.57181,2.8094 -30,0c-2.30461,-0.7682 -5.9116,-6.36364 -8.18182,-6.36364c-0.42855,0 -0.77357,0.50253 -0.90909,0.90909c-1.17505,3.52515 -5.41727,9.07227 -9.09091,10.90909c-8.71308,4.35654 -13.73498,-3.73498 -18.18182,-8.18182c-3.06557,-3.06557 -14.49057,1.8319 -18.18182,0.90909c-2.92786,-0.73196 -1.72067,-2.67852 -3.63636,-3.63636c-10.96282,-5.48141 -26.94463,-19.63431 -31.81818,-31.81818c-1.54629,-3.86573 -5.45455,-6.57746 -5.45455,-10.90909\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_4f86c095-e833-492d-979c-6eaf55918006\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Form name: Hervoux;Earliest attestation: present document;<a href=\"https://dicotopo.cths.fr/places/P91635568\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Form name: <strong>Hervoux</strong>;<br />Earliest attestation: present document;<br /><a href=\"https://dicotopo.cths.fr/places/P91635568\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Airvault (Deux-Sèvres)",
+      "@type" : "oa:Tag",
+      "chars" : "Airvault (Deux-Sèvres)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:48:53",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105733461",
+    "dcterms:modified" : "2022-02-17T13:59:35",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1312,482,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1316.55932,495.54677c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_13cb4b81-8c00-4e07-a0a3-ab64b00354d0\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Luzignan;Earliest attestation: 1536;<a href=\"https://dicotopo.cths.fr/places/P58785807\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Luzignan</strong>;<br />Earliest attestation: 1536;<br /><a href=\"https://dicotopo.cths.fr/places/P58785807\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Lusignan (Vienne)",
+      "@type" : "oa:Tag",
+      "chars" : "Lusignan (Vienne)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:56:38",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645106198705",
+    "dcterms:modified" : "2022-02-17T14:00:19",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1488,765,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1493.02182,778.53987c0,-3.0303 1.51515,-6.0606 4.54545,-9.0909c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.0606 4.54545,9.0909z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_235b4266-c456-4a96-a406-59b567656d9a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Partenay;Earliest attestation: 1202;<a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Partenay</strong>;<br />Earliest attestation: 1202;<br /><a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a></p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Parthenay (Deux-Sèvres)",
+      "@type" : "oa:Tag",
+      "chars" : "Parthenay (Deux-Sèvres)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:31:21",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104681511",
+    "dcterms:modified" : "2022-02-17T13:59:57",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1267,591,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1271.10477,604.63768c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_6be3a75f-82f0-42e6-84a7-53b70b1225e5\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Bonne;Earliest attestation: 1621 (la Bonne au Moyne);<a href=\"https://dicotopo.cths.fr/places/P92909601\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Bonne</strong>;<br />Earliest attestation: 1621 (la Bonne au Moyne);<br /><a href=\"https://dicotopo.cths.fr/places/P92909601\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Borne-aux-Moines (La)",
+      "@type" : "oa:Tag",
+      "chars" : "Borne-aux-Moines (La)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:36:08",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104968789",
+    "dcterms:modified" : "2022-02-17T13:59:40",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1485,594,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1489.28659,607.36495c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_2a602f7a-8df7-4ec1-844d-75bfb160f485\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Form name: Mussa;Earliest attestation: present document;<a href=\"https://dicotopo.cths.fr/places/P48794487\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Form name: <strong>Mussa</strong>;<br />Earliest attestation: present document;<br /><a href=\"https://dicotopo.cths.fr/places/P48794487\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Massais (Deux-Sèvres)",
+      "@type" : "oa:Tag",
+      "chars" : "Massais (Deux-Sèvres)"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2022-02-17T13:52:00",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105920613",
+    "dcterms:modified" : "2022-02-17T13:59:20",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1239,336,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1243.09091,350.09223c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_1ab52f2e-5afa-4151-b732-3179f462d75b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Poitiers (Vienne)",
+      "@type" : "oa:Tag",
+      "chars" : "Poitiers (Vienne)"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Name form: Po[i]ctiers;Earliest attestation: 1366;<a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Name form: <strong>Po</strong>[i]<strong>ctiers</strong>;<br />Earliest attestation: 1366;<br /><a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-02-17T15:10:50",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645110650976",
+    "dcterms:modified" : "2022-02-17T15:10:50",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1604,607,9,14"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1608.44628,621.03079c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_a67368f4-bea8-46c8-b6a6-eea0bbadc9a4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+    } ]
+  } ],
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/annotations/annotations1.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
