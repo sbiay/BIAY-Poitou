@@ -83,69 +83,6 @@
         "label" : "Annotations for canvas Map of Poitou, Saintonge, Aunis and Angoumois (France) by Christophe Tassin (1636-1638)"
       } ]
     }, {
-      "@id" : "http://389a1b88-5b6b-4372-babb-1b37830f3221",
-      "@type" : "sc:Canvas",
-      "label" : "City view of Niort (France) by Christophe Tassin (1634-1657)",
-      "height" : "1467",
-      "width" : "2213",
-      "metadata" : [ {
-        "label" : "Repository",
-        "value" : "Bibliothèque nationale de France"
-      }, {
-        "label" : "Sources Images",
-        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b531567876/f2"
-      }, {
-        "label" : "Shelfmark",
-        "value" : "Bibliothèque nationale de France, département Cartes et plans, GE BB-246 (XI, 67)"
-      }, {
-        "label" : "Title",
-        "value" : "Nior en Poictou"
-      }, {
-        "label" : "Date",
-        "value" : "1634-1657"
-      }, {
-        "label" : "Format",
-        "value" : "Engraving, dimensions unknown"
-      }, {
-        "label" : "Creator",
-        "value" : "Tassin, Christophe (16..-1660)"
-      }, {
-        "label" : "Type",
-        "value" : "City view"
-      }, {
-        "label" : "Relation",
-        "value" : "Belongs to the Gaston d'Orléans' collection containing the description of the realm of France, part 3, 67"
-      } ],
-      "description" : [ {
-        "@value" : "[Click to edit description]",
-        "@language" : "en"
-      } ],
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://8ab2c88b-b827-4a62-9594-b9c6b29b5481",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531567876/f2/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531567876/f2",
-            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-          },
-          "height" : 1467,
-          "width" : 2213
-        },
-        "on" : "http://389a1b88-5b6b-4372-babb-1b37830f3221"
-      } ],
-      "related" : "",
-      "otherContent" : [ {
-        "@type" : "sc:AnnotationList",
-        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/377e8c7bb1cebd62b6435c446320f26e.json",
-        "label" : "Annotations for canvas City view of Niort (France) by Christophe Tassin (1634-1657)"
-      } ]
-    }, {
       "@id" : "http://a2080e8d-0403-4590-bfbe-237c71421003",
       "@type" : "sc:Canvas",
       "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)",
