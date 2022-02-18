@@ -1,0 +1,255 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story-2022-02-18-0954.json",
+  "@type" : "sc:Manifest",
+  "label" : "A Visual History of Poitou in the Seventeeth Century",
+  "metadata" : [ {
+    "label" : "Context Title",
+    "value" : "3IF Assignement"
+  }, {
+    "label" : "Context Frame",
+    "value" : "Master's Degree 'Technologies numériques appliquées à l'histoire'"
+  } ],
+  "description" : [ {
+    "@value" : "Map and city views from Poitou engraved in the seventeenth century by Christophe Tassin and Frans Hogenberg, documenting toponyms and medieval monuments from Niort and Poitiers.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Biay, Sébastien, 1984-....",
+  "sequences" : [ {
+    "@id" : "http://3f39bb74-ab88-4f50-af8e-4f17a4b8c381",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8",
+      "@type" : "sc:Canvas",
+      "label" : "Map of Poitou, Saintonge, Aunis and Angoumois (France) by Christophe Tassin (1636-1638)",
+      "height" : 1706,
+      "width" : 2254,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Bibliothèque nationale de France"
+      }, {
+        "label" : "Sources Images",
+        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b53052943v"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "Bibliothèque nationale de France, département Cartes et plans, GE DD-2987 (587,1)"
+      }, {
+        "label" : "Title",
+        "value" : "Carte de Poictou Xaintonge Angoulmois et Pays d'Aunis / [by Christophe Tassin]"
+      }, {
+        "label" : "Date",
+        "value" : "1636-1638"
+      }, {
+        "label" : "Format",
+        "value" : "1 map; 10,5 x 15,5 cm"
+      }, {
+        "label" : "Creator",
+        "value" : "Tassin, Christophe (16..-1660)"
+      }, {
+        "label" : "Type",
+        "value" : "Map"
+      }, {
+        "label" : "Relation",
+        "value" : "Belongs to d'Anville collection; 00587 1"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fa891c54-8c90-41ea-ae16-9a84c669af85",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53052943v/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53052943v/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 1706,
+          "width" : 2254
+        },
+        "on" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/ee9b2a078dc77b64f4f7ccc5db3e5047.json",
+        "label" : "Annotations for canvas Map of Poitou, Saintonge, Aunis and Angoumois (France) by Christophe Tassin (1636-1638)"
+      } ]
+    }, {
+      "@id" : "http://a2080e8d-0403-4590-bfbe-237c71421003",
+      "@type" : "sc:Canvas",
+      "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)",
+      "height" : 2711,
+      "width" : 3882,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Poitiers, Bibliothèques universitaires"
+      }, {
+        "label" : "Sources Images",
+        "value" : "https://archive.org/details/01_20220210_20220210_0731"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "FAP 4345"
+      }, {
+        "label" : "Title",
+        "value" : "Poictiers"
+      }, {
+        "label" : "Date",
+        "value" : "16.."
+      }, {
+        "label" : "Format",
+        "value" : "Engraving, dimensions unknown"
+      }, {
+        "label" : "Creator",
+        "value" : "Tassin, Christophe (16..-1660)"
+      }, {
+        "label" : "Type",
+        "value" : "City view"
+      }, {
+        "label" : "Relation",
+        "value" : "Contained in Plans et profilz des principales villes de la province de Poictou / Christophe Tassin.- [Paris]‎, [16..]. (Les plans et profils de toutes les principales villes et lieux considerables de France; 8)"
+      }, {
+        "label" : "Locator",
+        "value" : "pl21"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e269c134-f95d-4a90-afca-4a46887dfc45",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2711,
+          "width" : 3882
+        },
+        "on" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/258f439472e9ace8369848b581ca4a3c.json",
+        "label" : "Annotations for canvas City view of Poitiers (France) by Christophe Tassin (before 1660)"
+      } ]
+    }, {
+      "@id" : "http://29ba2561-061f-485d-a423-723e67d2b2c1",
+      "@type" : "sc:Canvas",
+      "label" : "City views of Montpellier, Tours and Poitiers by Frans Hogenberg (1539?-1590?)",
+      "height" : 4900,
+      "width" : 6484,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Bibliothèque nationale de France"
+      }, {
+        "label" : "Source Images",
+        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b531788420/f1"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "Bibliothèque nationale de France, département Cartes et plans, GE DD-1605 (9)"
+      }, {
+        "label" : "Title",
+        "value" : "Monspessulanus, Montpellier; Turo, Tours; Pictavis, sive Pictavia, vernaculo idiomate Poitiers…"
+      }, {
+        "label" : "Date",
+        "value" : "1645"
+      }, {
+        "label" : "Language",
+        "value" : [ {
+          "@value" : "français"
+        }, {
+          "@value" : "latin"
+        } ]
+      }, {
+        "label" : "Format",
+        "value" : [ {
+          "@value" : "3 city views: engraving, colour; 41 x 54 cm"
+        }, {
+          "@value" : "image/jpeg"
+        } ]
+      }, {
+        "label" : "Creator",
+        "value" : [ {
+          "@value" : "Braun, Georg (1541-1622). Editor"
+        }, {
+          "@value" : "Hogenberg, Frans (1539?-1590?). Engraver"
+        } ]
+      }, {
+        "label" : "Relation",
+        "value" : "Contained in Théâtre des cités du monde; 9"
+      }, {
+        "label" : "Type",
+        "value" : "City view"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5b582a6c-65c8-41fa-b723-41ffb18b30fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531788420/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531788420/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 4900,
+          "width" : 6484
+        },
+        "on" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/148825cd629be207fd48ef8bc9803640.json",
+        "label" : "Annotations for canvas City views of Montpellier, Tours and Poitiers by Frans Hogenberg (1539?-1590?)"
+      } ]
+    }, {
+      "@id" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d",
+      "@type" : "sc:Canvas",
+      "label" : "City view of Poitiers by L. Boudan",
+      "height" : 5600,
+      "width" : 7264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fa2cb7bf-fa2c-4f53-8c60-5abf7cbf809c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902610x/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902610x/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 5600,
+          "width" : 7264
+        },
+        "on" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/92872718/c6accd392fc82f99491cd1be3a703be7/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
