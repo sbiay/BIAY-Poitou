@@ -140,11 +140,7 @@
         "on" : "http://c4af9e3d-7d51-4e58-b5a2-6c228c48a084"
       } ],
       "related" : "",
-      "otherContent" : [ {
-        "@type" : "sc:AnnotationList",
-        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/377e8c7bb1cebd62b6435c446320f26e.json",
-        "label" : "Annotations for canvas City view of Niort (France) by Christophe Tassin (1634-1657)"
-      } ]
+      "otherContent" : [ ]
     }, {
       "@id" : "http://a2080e8d-0403-4590-bfbe-237c71421003",
       "@type" : "sc:Canvas",
