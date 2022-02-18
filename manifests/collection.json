@@ -15,10 +15,6 @@
     "label" : "A Visual History of Poitou in the Seventeeth Century"
   }, {
     "@type" : "sc:Manifest",
-    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story-2022-02-18-0919.json",
-    "label" : "A Visual History of Poitou in the Seventeeth Century"
-  }, {
-    "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story-2022-02-18-0954.json",
     "label" : "A Visual History of Poitou in the Seventeeth Century"
   } ]
