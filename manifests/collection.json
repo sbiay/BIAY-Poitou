@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/manifest-2022-02-18-0836.json",
-    "label" : "A Visual History of Poitou in the Seventeeth Century"
-  } ]
+  "items" : [ ]
 }
