@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ ],
+  "otherContent" : [ "https://sbiay.github.io/BIAY-Poitou/annotations/annotations1.json" ],
   "@id" : "https://sbiay.github.io/BIAY-Poitou/annotations/collection.json",
   "label" : "All annotations loaded in sbiay/BIAY-Poitou project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
