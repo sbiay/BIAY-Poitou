@@ -1,0 +1,1416 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json",
+  "@type" : "sc:Manifest",
+  "label" : "A Visual History of Poitou in the Seventeeth Century",
+  "metadata" : [ {
+    "label" : "Context Title",
+    "value" : "3IF Assignement"
+  }, {
+    "label" : "Context Frame",
+    "value" : "Master's Degree 'Technologies numériques appliquées à l'histoire'"
+  } ],
+  "description" : [ {
+    "@value" : "Map and city views from the region and Poitou and the city of Poitiers drawn or engraved in the seventeenth century, documenting toponyms and medieval monuments.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Biay, Sébastien, 1984-....",
+  "sequences" : [ {
+    "@id" : "http://3f39bb74-ab88-4f50-af8e-4f17a4b8c381",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8",
+      "@type" : "sc:Canvas",
+      "label" : "Map of Poitou, Saintonge, Aunis and Angoumois (France) by Christophe Tassin (1636-1638)",
+      "height" : 1706,
+      "width" : 2254,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Bibliothèque nationale de France"
+      }, {
+        "label" : "Sources Images",
+        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b53052943v"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "Bibliothèque nationale de France, département Cartes et plans, GE DD-2987 (587,1)"
+      }, {
+        "label" : "Title",
+        "value" : "Carte de Poictou Xaintonge Angoulmois et Pays d'Aunis / [by Christophe Tassin]"
+      }, {
+        "label" : "Date",
+        "value" : "1636-1638"
+      }, {
+        "label" : "Format",
+        "value" : "1 map; 10,5 x 15,5 cm"
+      }, {
+        "label" : "Creator",
+        "value" : "Tassin, Christophe (16..-1660)"
+      }, {
+        "label" : "Type",
+        "value" : "Map"
+      }, {
+        "label" : "Relation",
+        "value" : "Belongs to d'Anville collection; 00587 1"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fa891c54-8c90-41ea-ae16-9a84c669af85",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53052943v/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53052943v/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 1706,
+          "width" : 2254
+        },
+        "on" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Baigneux;Earliest attestation: 1464;<a href=\"https://dicotopo.cths.fr/places/P32946404\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Baigneux</strong>;<br />Earliest attestation: 1464;<br /><a href=\"https://dicotopo.cths.fr/places/P32946404\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Bignoux (Vienne)",
+            "@type" : "oa:Tag",
+            "chars" : "Bignoux (Vienne)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:44:31",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105471836",
+          "dcterms:modified" : "2022-02-17T14:00:28",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1715,581,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1719.28659,594.63768c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_adb54cbe-0bbe-4013-8f35-14ae74cf2a8b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Niort;Earliest attestation: present document;<a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Niort</strong>;<br />Earliest attestation: present document;<br /><a title=\"DicoTopo\" href=\"https://dicotopo.cths.fr/places/P06497382\" target=\"_blank\" rel=\"noopener\">DicoTopo : lien vers la notice</a></p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Niort (Deux-Sèvres)",
+            "@type" : "oa:Tag",
+            "chars" : "Niort (Deux-Sèvres)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:33:23",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104803513",
+          "dcterms:modified" : "2022-02-17T14:00:03",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1154,799,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1158.3775,812.8195c0,-3.0303 1.51515,-6.06063 4.54545,-9.09093c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06063 4.54545,9.09093z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_cdf47732-ee97-46a9-b200-421d18f06b44\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Sèvre Niortaise (La)",
+            "@type" : "oa:Tag",
+            "chars" : "Sèvre Niortaise (La)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Ligneure;<a href=\"https://dicotopo.cths.fr/places/P14553352\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record;Former name of the S&egrave;vre Niortaise (today an affluent), cf. map from Pictonum, vicinarumque regionum fidissa, auctore Petro Rogiero&hellip;, 1590 (<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b53223539k/f1\" target=\"_blank\" rel=\"noopener\">Gallica).\n<img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b53223539k/f1/2372,2248,494,371/400,/0/default.jpg\" alt=\"Poitou. Pictonum, vicinarumque regionum fidissa. descriptio, auctore... Petro Rogiero\" width=\"400\" height=\"300\" />",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Ligneure</strong>;<br /><a href=\"https://dicotopo.cths.fr/places/P14553352\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>;<br />Former name of the <strong>S&egrave;vre Niortaise </strong>(today an affluent), cf. map from <em>Pictonum, vicinarumque regionum fidissa, auctore Petro Rogiero</em>&hellip;, 1590 (<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b53223539k/f1\" target=\"_blank\" rel=\"noopener\">Gallica</a>).</p>\n<p><img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b53223539k/f1/2372,2248,494,371/400,/0/default.jpg\" alt=\"Poitou. Pictonum, vicinarumque regionum fidissa. descriptio, auctore... Petro Rogiero\" width=\"400\" height=\"300\" /></p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T17:14:32",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645118072811",
+          "dcterms:modified" : "2022-02-17T17:14:32",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=937,750,456,125"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1376.31331,874.60516c0,-1.55269 0.13699,-18.95392 0,-19.09091c-2.05714,-2.05714 -4.12346,-1.88328 -5.45455,-4.54545c-1.35959,-2.71918 0,-9.5216 0,-12.72727c0,-7.12091 -4.27827,-15.347 -1.81818,-22.72727c1.1771,-3.53129 8.19394,-4.5697 10,-8.18182c2.38985,-4.77971 2.06514,-10.49392 4.54545,-15.45455c1.80556,-3.61113 7.64266,-5.65524 9.09091,-10c3.78825,-11.36475 -4.47798,-17.0703 -7.27273,-25.45455c-0.74294,-2.22882 -3.80251,0.41064 -4.54545,-1.81818c-0.56601,-1.69804 -0.29384,-3.02111 -1.81818,-4.54545c-0.42869,-0.42869 -10.24484,6.74828 -11.81818,7.27273c-5.27334,1.75778 -8.03209,0.60964 -10.90909,6.36364c-1.41842,2.83685 2.12645,10.60082 0,12.72727c-6.05303,6.05303 -7.77597,15.55194 -11.81818,23.63636c-1.06869,2.13738 -4.70312,2.29117 -5.45455,4.54545c-0.43811,1.31433 -0.58241,5.53979 -1.81818,6.36364c-6.17767,4.11845 -18.95217,1.86443 -24.54545,0c-12.2718,-4.0906 -23.52632,3.58134 -32.72727,8.18182c-4.04173,2.02087 -6.91463,-7.1832 -10.90909,-8.18182c-6.16114,-1.54028 -13.99436,2.00188 -20,0c-2.99136,-0.99712 -6.24249,-4.03034 -9.09091,-5.45455c-3.16754,-1.58377 -10.11877,0.79032 -12.72727,-1.81818c-4.05661,-4.05661 -7.88242,-9.49737 -12.72727,-12.72727c-3.99533,-2.66355 -8.35972,-2.90517 -10.90909,-5.45455c-2.79498,-2.79498 0.72224,-8.55553 -0.90909,-11.81818c-2.64354,-5.28709 -8.03418,-14.92618 -12.72727,-17.27273c-1.95741,-0.97871 -7.63091,-0.35818 -9.09091,-1.81818c-1.60674,-1.60674 -5.98641,-4.27952 -9.09091,-2.72727c-7.28229,3.64115 -8.72986,10.14701 -14.54545,13.63636c-2.63113,1.57868 -11.33481,0.85145 -12.72727,3.63636c-1.0707,2.14141 3.72175,4.63084 4.54545,5.45455c0.9755,0.9755 0,10.45763 0,11.81818c0,2.41286 2.72727,1.57665 2.72727,4.54545c0,0.60606 0,1.21212 0,1.81818c0,0.60606 0.27104,1.2761 0,1.81818c-2.28358,4.56716 -11.97573,8.65446 -13.63636,13.63636c-0.97654,2.92961 0.56504,6.14265 -0.90909,9.09091c-1.80703,3.61406 -8.83571,6.50714 -10,10c-1.12224,3.36671 -0.19606,5.65061 -2.72727,8.18182c-0.74347,0.74347 -13.28169,0.35468 -13.63636,0c-2.91049,-2.91049 -7.06091,-12.79788 -12.72727,-10.90909c-7.62122,2.54041 -12.80299,13.42802 -20.90909,15.45455c-4.75555,1.18889 -10.78918,0.05995 -14.54545,-1.81818c-7.91819,-3.9591 -21.57181,2.8094 -30,0c-2.30461,-0.7682 -5.9116,-6.36364 -8.18182,-6.36364c-0.42855,0 -0.77357,0.50253 -0.90909,0.90909c-1.17505,3.52515 -5.41727,9.07227 -9.09091,10.90909c-8.71308,4.35654 -13.73498,-3.73498 -18.18182,-8.18182c-3.06557,-3.06557 -14.49057,1.8319 -18.18182,0.90909c-2.92786,-0.73196 -1.72067,-2.67852 -3.63636,-3.63636c-10.96282,-5.48141 -26.94463,-19.63431 -31.81818,-31.81818c-1.54629,-3.86573 -5.45455,-6.57746 -5.45455,-10.90909\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_4f86c095-e833-492d-979c-6eaf55918006\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Form name: Hervoux;Earliest attestation: present document;<a href=\"https://dicotopo.cths.fr/places/P91635568\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Form name: <strong>Hervoux</strong>;<br />Earliest attestation: present document;<br /><a href=\"https://dicotopo.cths.fr/places/P91635568\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Airvault (Deux-Sèvres)",
+            "@type" : "oa:Tag",
+            "chars" : "Airvault (Deux-Sèvres)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:48:53",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105733461",
+          "dcterms:modified" : "2022-02-17T13:59:35",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1312,482,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1316.55932,495.54677c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_13cb4b81-8c00-4e07-a0a3-ab64b00354d0\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Luzignan;Earliest attestation: 1536;<a href=\"https://dicotopo.cths.fr/places/P58785807\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Luzignan</strong>;<br />Earliest attestation: 1536;<br /><a href=\"https://dicotopo.cths.fr/places/P58785807\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Lusignan (Vienne)",
+            "@type" : "oa:Tag",
+            "chars" : "Lusignan (Vienne)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:56:38",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645106198705",
+          "dcterms:modified" : "2022-02-17T14:00:19",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1488,765,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1493.02182,778.53987c0,-3.0303 1.51515,-6.0606 4.54545,-9.0909c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.0606 4.54545,9.0909z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_235b4266-c456-4a96-a406-59b567656d9a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Partenay;Earliest attestation: 1202;<a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Partenay</strong>;<br />Earliest attestation: 1202;<br /><a href=\"https://dicotopo.cths.fr/places/P75216285\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a></p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Parthenay (Deux-Sèvres)",
+            "@type" : "oa:Tag",
+            "chars" : "Parthenay (Deux-Sèvres)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:31:21",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104681511",
+          "dcterms:modified" : "2022-02-17T13:59:57",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1267,591,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1271.10477,604.63768c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_6be3a75f-82f0-42e6-84a7-53b70b1225e5\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Bonne;Earliest attestation: 1621 (la Bonne au Moyne);<a href=\"https://dicotopo.cths.fr/places/P92909601\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Bonne</strong>;<br />Earliest attestation: 1621 (la Bonne au Moyne);<br /><a href=\"https://dicotopo.cths.fr/places/P92909601\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Borne-aux-Moines (La)",
+            "@type" : "oa:Tag",
+            "chars" : "Borne-aux-Moines (La)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:36:08",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645104968789",
+          "dcterms:modified" : "2022-02-17T13:59:40",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1485,594,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1489.28659,607.36495c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_2a602f7a-8df7-4ec1-844d-75bfb160f485\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Form name: Mussa;Earliest attestation: present document;<a href=\"https://dicotopo.cths.fr/places/P48794487\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Form name: <strong>Mussa</strong>;<br />Earliest attestation: present document;<br /><a href=\"https://dicotopo.cths.fr/places/P48794487\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Massais (Deux-Sèvres)",
+            "@type" : "oa:Tag",
+            "chars" : "Massais (Deux-Sèvres)"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting", "oa:tagging" ],
+          "dcterms:created" : "2022-02-17T13:52:00",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645105920613",
+          "dcterms:modified" : "2022-02-17T13:59:20",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1239,336,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1243.09091,350.09223c0,-3.0303 1.51515,-6.06062 4.54545,-9.09092c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06062 4.54545,9.09092z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;annotation&quot;:null,&quot;editable&quot;:true}\" id=\"pin_1ab52f2e-5afa-4151-b732-3179f462d75b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"10\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers (Vienne)",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers (Vienne)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Po[i]ctiers;Earliest attestation: 1366;<a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: <strong>Po</strong>[i]<strong>ctiers</strong>;<br />Earliest attestation: 1366;<br /><a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T15:10:50",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645110650976",
+          "dcterms:modified" : "2022-02-17T15:10:50",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1604,607,9,14"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1608.44628,621.03079c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_a67368f4-bea8-46c8-b6a6-eea0bbadc9a4\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#008000\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://5d487ef2-420a-49e9-bfbc-d7e40eaf01e8"
+          } ]
+        } ],
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/ee9b2a078dc77b64f4f7ccc5db3e5047.json",
+        "@context" : "http://iiif.io/api/presentation/2/context.json"
+      } ]
+    }, {
+      "@id" : "http://a2080e8d-0403-4590-bfbe-237c71421003",
+      "@type" : "sc:Canvas",
+      "label" : "City view of Poitiers (France) by Christophe Tassin (before 1660)",
+      "height" : 2711,
+      "width" : 3882,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Poitiers, Bibliothèques universitaires"
+      }, {
+        "label" : "Sources Images",
+        "value" : "https://archive.org/details/01_20220210_20220210_0731"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "FAP 4345"
+      }, {
+        "label" : "Title",
+        "value" : "Poictiers"
+      }, {
+        "label" : "Date",
+        "value" : "16.."
+      }, {
+        "label" : "Format",
+        "value" : "Engraving, dimensions unknown"
+      }, {
+        "label" : "Creator",
+        "value" : "Tassin, Christophe (16..-1660)"
+      }, {
+        "label" : "Type",
+        "value" : "City view"
+      }, {
+        "label" : "Relation",
+        "value" : "Contained in Plans et profilz des principales villes de la province de Poictou / Christophe Tassin.- [Paris]‎, [16..]. (Les plans et profils de toutes les principales villes et lieux considerables de France; 8)"
+      }, {
+        "label" : "Locator",
+        "value" : "pl21"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e269c134-f95d-4a90-afca-4a46887dfc45",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/01_20220210_20220210_0731",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2711,
+          "width" : 3882
+        },
+        "on" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Pré l'Evêque",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Pré l'Evêque"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:56:52",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645189012675",
+          "dcterms:modified" : "2022-02-18T12:56:52",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1616,1694,2194,647"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1628.6243,2274.96119c8.4293,0 14.93235,-0.71921 22.91908,3.27415c4.8784,2.4392 7.94303,11.80822 13.09662,13.09662c3.1764,0.7941 7.20314,-1.96449 9.82246,0c2.76101,2.07076 0.57917,7.66648 3.27415,9.82246c3.51383,2.81106 9.07179,1.26174 13.09662,3.27415c4.14151,2.07076 5.28203,8.91438 9.82246,9.82246c4.28076,0.85615 8.77495,-0.61738 13.09662,0c3.41658,0.48808 6.43822,2.59731 9.82246,3.27415c11.95586,2.39117 30.33205,0 42.56401,0c36.0157,0 72.0314,0 108.0471,0c16.37077,0 32.74155,0 49.11232,0c3.29205,0 10.52023,-1.71759 13.09662,0c2.56846,1.71231 4.07879,4.69617 6.54831,6.54831c4.10941,3.08206 15.22886,5.44429 19.64493,6.54831c12.32623,3.08156 26.96363,-3.08156 39.28986,0c20.07841,5.0196 41.36032,3.27415 62.20894,3.27415c2.44041,0 4.23313,2.50243 6.54831,3.27415c2.07076,0.69025 4.36554,0 6.54831,0c7.71726,0 15.26142,2.31695 22.91908,3.27415c19.9754,2.49693 42.10144,0 62.20894,0c10.70564,0 13.71231,-1.49117 26.19324,-3.27415c2.16083,-0.30869 4.80209,1.30966 6.54831,0c3.14804,-2.36103 3.76581,-7.03997 6.54831,-9.82246c3.18191,-3.18191 8.82764,-1.85116 13.09662,-3.27415c3.73311,-1.24437 5.94096,-5.90139 9.82246,-6.54831c6.45921,-1.07654 13.43266,2.07076 19.64493,0c1.46425,-0.48808 1.89365,-2.5839 3.27415,-3.27415c3.0869,-1.54345 6.73556,-1.7307 9.82246,-3.27415c6.40104,-3.20052 12.43164,-11.2933 19.64493,-13.09662c5.13593,-1.28398 11.23484,1.28398 16.37077,0c1.49737,-0.37434 1.89365,-2.5839 3.27415,-3.27415c3.0869,-1.54345 6.41816,-2.70677 9.82246,-3.27415c7.61225,-1.26871 15.49876,-1.15406 22.91908,-3.27415c3.31847,-0.94813 6.43822,-2.59731 9.82246,-3.27415c2.14038,-0.42808 4.6766,1.12303 6.54831,0c3.9705,-2.3823 5.68095,-7.75171 9.82246,-9.82246c8.04966,-4.02483 17.83714,-3.20587 26.19324,-6.54831c12.37983,-4.95193 21.4635,-12.8781 32.74155,-19.64493c0.93585,-0.56151 2.36607,0.60539 3.27415,0c2.56846,-1.71231 3.68219,-5.40186 6.54831,-6.54831c3.03998,-1.21599 6.59286,0.53827 9.82246,0c12.12823,-2.02137 9.77184,-8.17273 16.37077,-9.82246c3.1764,-0.7941 6.71633,1.03538 9.82246,0c6.61144,-2.20381 16.94986,-12.78924 22.91908,-16.37077c7.06664,-4.23998 15.71431,-9.49423 22.91908,-13.09662c3.0869,-1.54345 7.06145,-1.2034 9.82246,-3.27415c1.95233,-1.46425 1.00829,-5.64196 3.27415,-6.54831c4.0533,-1.62132 8.9551,1.3805 13.09662,0c0.68575,-0.22858 20.89899,-15.36072 22.91908,-16.37077c3.35753,-1.67876 9.73909,-1.59539 13.09662,-3.27415c2.76101,-1.3805 3.7873,-5.1678 6.54831,-6.54831c1.95233,-0.97616 5.00486,1.54345 6.54831,0c1.72563,-1.72563 1.80991,-4.59598 3.27415,-6.54831c0.97753,-1.30338 14.9308,-12.13664 16.37077,-13.09662c7.35834,-4.90556 20.94154,-3.13797 29.46739,-6.54831c6.57791,-2.63116 14.00157,-7.00079 19.64493,-9.82246c1.3805,-0.69025 1.80991,-2.78607 3.27415,-3.27415c2.07076,-0.69025 4.43071,0.5294 6.54831,0c3.81755,-0.95439 6.08935,-5.30394 9.82246,-6.54831c6.21227,-2.07076 13.29213,1.5882 19.64493,0c1.0588,-0.2647 -0.77173,-2.50243 0,-3.27415c1.72563,-1.72563 4.23313,-2.50243 6.54831,-3.27415c5.27942,-1.75981 11.91878,0.06484 16.37077,-3.27415c1.95233,-1.46425 1.92046,-4.51776 3.27415,-6.54831c1.3537,-2.03054 4.82268,-1.54852 6.54831,-3.27415c0.77173,-0.77173 -1.03538,-2.92903 0,-3.27415c3.10614,-1.03538 6.64607,0.7941 9.82246,0c1.49737,-0.37434 1.89365,-2.5839 3.27415,-3.27415c1.95233,-0.97616 4.47755,0.69025 6.54831,0c3.69222,-1.23074 10.1713,-5.5732 13.09662,-6.54831c2.07076,-0.69025 4.59598,0.97616 6.54831,0c4.14151,-2.07076 5.52329,-8.10279 9.82246,-9.82246c4.90565,-1.96226 14.73928,-1.3119 19.64493,-3.27415c3.6536,-1.46144 6.16887,-5.08687 9.82246,-6.54831c9.43139,-3.77256 19.1798,2.60447 29.46739,-3.27415c4.02027,-2.2973 5.85197,-7.44017 9.82246,-9.82246c4.67927,-2.80756 11.19388,1.72563 16.37077,0c3.73311,-1.24437 6.16887,-5.08687 9.82246,-6.54831c2.02665,-0.81066 4.39524,0.35885 6.54831,0c6.80861,-1.13477 13.09662,-4.36554 19.64493,-6.54831c4.91123,-1.63708 11.45954,1.63708 16.37077,0c10.47569,-3.4919 18.9917,-9.60472 29.46739,-13.09662c7.94028,-2.64676 18.05329,2.03499 26.19324,0c2.36755,-0.59189 4.23313,-2.50243 6.54831,-3.27415c4.91123,-1.63708 11.45954,1.63708 16.37077,0c1.46425,-0.48808 1.89365,-2.5839 3.27415,-3.27415c2.59365,-1.29683 15.56861,0.13369 16.37077,0c3.4043,-0.56738 6.47425,-2.4371 9.82246,-3.27415c11.80958,-2.95239 30.57377,0 42.56401,0c37.10709,0 74.21417,0 111.32126,0c37.10709,0 74.21417,0 111.32126,0c21.04589,0 44.60824,2.98212 65.48309,0c6.57191,-0.93884 13.20451,-1.66405 19.64493,-3.27415c2.36755,-0.59189 4.15529,-2.79555 6.54831,-3.27415c10.58637,-2.11727 22.17591,-1.16103 32.74155,-3.27415c6.76848,-1.3537 12.83632,-5.41354 19.64493,-6.54831c3.22961,-0.53827 6.61189,0.64211 9.82246,0c4.74034,-0.94807 11.63043,-5.60024 16.37077,-6.54831c8.98542,-1.79708 29.1104,-1.54783 36.0157,-3.27415c7.70817,-1.92704 15.16288,-4.82471 22.91908,-6.54831c2.13079,-0.47351 4.59598,0.97616 6.54831,0c2.76101,-1.3805 3.68219,-5.40186 6.54831,-6.54831c9.66589,-3.86636 43.62056,3.01002 55.66063,0c14.88286,-3.72071 27.75754,-9.82246 42.56401,-9.82246c12.9178,0 23.36229,-1.16525 36.0157,-3.27415c9.81633,-1.63606 16.01325,1.81584 26.19324,-3.27415c2.76101,-1.3805 3.7873,-5.1678 6.54831,-6.54831c1.95233,-0.97616 4.40793,0.42808 6.54831,0c3.38424,-0.67685 6.47425,-2.4371 9.82246,-3.27415c5.13452,-1.28363 11.17574,1.03901 16.37077,0c3.38424,-0.67685 6.47425,-2.4371 9.82246,-3.27415c4.10874,-1.02719 8.98788,1.02719 13.09662,0c1.49737,-0.37434 1.98993,-2.418 3.27415,-3.27415c7.18598,-4.79065 27.32733,-4.40825 32.74155,-9.82246c1.54345,-1.54345 -0.69025,-4.47755 0,-6.54831c3.11352,-9.34056 10.86545,-3.79565 16.37077,-6.54831c4.14785,-2.07392 8.50467,-9.14324 9.82246,-13.09662c0.52101,-1.56302 0.15945,-16.29105 0,-16.37077c-4.88082,-2.44041 -12.00523,3.27415 -16.37077,0c-3.70428,-2.77821 -5.68095,-7.75171 -9.82246,-9.82246c-5.85699,-2.92849 -13.09662,0 -19.64493,0c-10.6376,0 -13.95437,-7.26112 -22.91908,-9.82246c-8.65351,-2.47243 -17.46216,-4.36554 -26.19324,-6.54831c-9.12854,-2.28214 -20.38035,-0.24514 -29.46739,-3.27415c-3.73311,-1.24437 -5.96384,-5.77658 -9.82246,-6.54831c-14.8493,-2.96986 -33.11904,5.41583 -39.28986,-13.09662c-1.32487,-3.97462 0,-12.4329 0,-16.37077c0,-3.27415 -1.46425,-6.89397 0,-9.82246c2.7045,-5.40899 7.11797,-1.13932 9.82246,-6.54831c1.75981,-3.51961 3.27415,-7.63969 6.54831,-9.82246c1.81617,-1.21078 5.00486,1.54345 6.54831,0c1.72563,-1.72563 1.54852,-4.82268 3.27415,-6.54831c0.77173,-0.77173 2.29799,0.48808 3.27415,0c6.01255,-3.00627 10.87237,-9.43102 16.37077,-13.09662c2.72426,-1.81617 6.71633,1.03538 9.82246,0c4.63035,-1.54345 8.46626,-5.00486 13.09662,-6.54831c2.07076,-0.69025 4.73213,1.21078 6.54831,0c2.03054,-1.3537 1.09138,-5.45692 3.27415,-6.54831c2.92849,-1.46425 6.64607,0.7941 9.82246,0c0.83752,-0.20938 12.00808,-6.18546 13.09662,-6.54831c3.10614,-1.03538 6.89397,1.46425 9.82246,0c1.3805,-0.69025 1.89365,-2.5839 3.27415,-3.27415c2.61932,-1.30966 7.20314,1.30966 9.82246,0c0.97616,-0.48808 -0.77173,-2.50243 0,-3.27415c1.54345,-1.54345 4.59598,0.97616 6.54831,0c5.01462,-2.50731 2.56044,-5.8346 6.54831,-9.82246c1.72563,-1.72563 4.82268,-1.54852 6.54831,-3.27415c0.96725,-0.96725 0.15766,-15.8978 0,-16.37077c-0.97616,-2.92849 -3.7873,-5.1678 -6.54831,-6.54831c-2.92849,-1.46425 -6.71633,1.03538 -9.82246,0c-1.46425,-0.48808 -1.89365,-2.5839 -3.27415,-3.27415c-3.0869,-1.54345 -6.73556,-1.7307 -9.82246,-3.27415c-5.69197,-2.84598 -10.33353,-7.81005 -16.37077,-9.82246c-2.07076,-0.69025 -4.40793,0.42808 -6.54831,0c-11.3468,-2.26936 -21.68379,-7.61091 -32.74155,-9.82246c-13.99742,-2.79948 -31.49915,0 -45.83816,0c-5.62597,0 -28.30492,-1.77465 -32.74155,0c-2.86612,1.14645 -3.61982,5.57214 -6.54831,6.54831c-4.14151,1.3805 -8.89905,-1.19931 -13.09662,0c-1.1787,0.33677 -24.47949,12.23974 -26.19324,13.09662c-8.62275,4.31138 -20.60947,3.59567 -29.46739,6.54831c-3.73311,1.24437 -6.00491,5.59392 -9.82246,6.54831c-3.08156,0.77039 -6.74091,-0.77039 -9.82246,0c-4.73509,1.18377 -8.73108,4.36554 -13.09662,6.54831c-4.63814,2.31907 -11.62834,1.69334 -16.37077,3.27415c-4.63035,1.54345 -8.31058,5.5911 -13.09662,6.54831c-5.35095,1.07019 -11.07678,-1.3235 -16.37077,0c-8.06357,2.01589 -14.76875,8.1924 -22.91908,9.82246c-3.21057,0.64211 -6.57359,-0.40611 -9.82246,0c-21.84989,2.73124 -43.52749,4.1088 -65.48309,6.54831c-13.6967,1.52186 -25.51073,0.51833 -39.28986,3.27415c-10.24524,2.04905 -14.00433,-0.78881 -26.19324,3.27415c-12.56977,4.18992 -55.64309,-2.73139 -72.0314,0c-2.40721,0.4012 -4.18076,2.68227 -6.54831,3.27415c-16.38965,4.09741 -35.83259,-3.31078 -52.38647,0c-2.39302,0.4786 -4.18076,2.68227 -6.54831,3.27415c-9.11965,2.27991 -20.58584,-2.96052 -29.46739,0c-4.63035,1.54345 -8.31058,5.5911 -13.09662,6.54831c-7.56739,1.51348 -15.69319,0.56444 -22.91908,3.27415c-6.85508,2.57066 -12.46587,8.38665 -19.64493,9.82246c-9.90186,1.98037 -19.28846,4.51252 -29.46739,6.54831c-2.14038,0.42808 -4.47755,-0.69025 -6.54831,0c-1.46425,0.48808 -1.80991,2.78607 -3.27415,3.27415c-5.17689,1.72563 -11.07678,-1.3235 -16.37077,0c-1.49737,0.37434 -1.8411,2.70093 -3.27415,3.27415c-4.17805,1.67122 -8.68411,2.39165 -13.09662,3.27415c-2.65371,0.53074 -7.43039,-1.19604 -9.82246,0c-2.18277,1.09138 -1.54852,4.82268 -3.27415,6.54831c-6.89917,6.89917 -16.01992,-0.35086 -22.91908,6.54831c-1.72563,1.72563 -1.54852,4.82268 -3.27415,6.54831c-1.86722,1.86722 -10.69601,1.67375 -13.09662,3.27415c-2.56846,1.71231 -3.97985,4.836 -6.54831,6.54831c-1.81617,1.21078 -4.47755,-0.69025 -6.54831,0c-7.35092,2.45031 -8.89879,6.08647 -16.37077,9.82246c-11.20995,5.60497 -42.75816,4.7051 -55.66063,6.54831c-13.05556,1.86508 -26.24715,7.64868 -39.28986,9.82246c-5.30944,0.88491 -11.06133,-0.88491 -16.37077,0c-5.48927,0.91488 -11.39329,0.78541 -16.37077,3.27415c-1.3805,0.69025 -1.76068,2.97146 -3.27415,3.27415c-6.42115,1.28423 -13.29213,-1.5882 -19.64493,0c-2.36755,0.59189 -4.15529,2.79555 -6.54831,3.27415c-12.56805,2.51361 -26.65129,-2.10643 -39.28986,0c-5.96606,0.99434 -13.53986,5.3273 -19.64493,6.54831c-4.28076,0.85615 -8.86142,-1.0588 -13.09662,0c-2.36755,0.59189 -4.18076,2.68227 -6.54831,3.27415c-5.13593,1.28398 -11.23484,-1.28398 -16.37077,0c-2.36755,0.59189 -4.23313,2.50243 -6.54831,3.27415c-2.07076,0.69025 -4.59598,-0.97616 -6.54831,0c-1.3805,0.69025 -1.80991,2.78607 -3.27415,3.27415c0,0 -13.09662,0 -13.09662,0c-3.34822,0.83705 -6.3712,3.27415 -9.82246,3.27415c-4.36554,0 -10.00972,-3.0869 -13.09662,0c-0.77173,0.77173 0.77173,2.50243 0,3.27415c-3.01369,3.01369 -19.5855,2.16296 -22.91908,3.27415c-1.03538,0.34513 0.97616,2.78607 0,3.27415c-1.95233,0.97616 -4.43071,-0.5294 -6.54831,0c-6.90658,1.72665 -13.65899,7.42809 -19.64493,9.82246c-6.77848,2.71139 -16.22399,3.87027 -22.91908,6.54831c-4.53173,1.81269 -8.56489,4.73562 -13.09662,6.54831c-7.47475,2.9899 -18.4233,3.95833 -26.19324,6.54831c-1.9981,0.66603 -7.82437,5.88228 -9.82246,6.54831c-3.92899,1.30966 -9.16763,-1.30966 -13.09662,0c-4.63035,1.54345 -8.31058,5.5911 -13.09662,6.54831c-3.21057,0.64211 -6.78249,-1.21599 -9.82246,0c-2.86612,1.14645 -3.97985,4.836 -6.54831,6.54831c-2.83591,1.89061 -9.92671,1.6892 -13.09662,3.27415c-3.51961,1.75981 -6.00491,5.59392 -9.82246,6.54831c-2.1176,0.5294 -4.47755,-0.69025 -6.54831,0c-1.46425,0.48808 -1.80991,2.78607 -3.27415,3.27415c-2.07076,0.69025 -4.54203,-0.85984 -6.54831,0c-12.52126,5.36626 -19.60396,13.08638 -32.74155,16.37077c-6.35279,1.5882 -13.18572,-1.07654 -19.64493,0c-3.82612,0.63769 -9.41061,7.97946 -13.09662,9.82246c-2.5856,1.2928 -7.06121,-0.92042 -9.82246,0c-6.28274,2.09425 -10.92532,7.09973 -16.37077,9.82246c-13.88161,6.9408 -34.53907,18.06133 -49.11232,22.91908c-5.64179,1.8806 -18.05245,2.89834 -22.91908,6.54831c-1.95233,1.46425 -1.09138,5.45692 -3.27415,6.54831c-2.92849,1.46425 -6.67429,-0.89948 -9.82246,0c-6.11896,1.74827 -10.67881,6.97648 -16.37077,9.82246c-11.70927,5.85464 -26.91725,5.69826 -39.28986,9.82246c-6.29689,2.09896 -9.94497,7.88247 -19.64493,9.82246c-9.06926,1.81385 -17.25296,4.31324 -26.19324,6.54831c-2.1176,0.5294 -4.59598,-0.97616 -6.54831,0c-2.76101,1.3805 -3.7873,5.1678 -6.54831,6.54831c-11.80809,5.90404 -37.30423,10.46673 -49.11232,16.37077c-2.76101,1.3805 -3.97985,4.836 -6.54831,6.54831c-5.0977,3.39847 -17.82138,-0.12431 -22.91908,3.27415c-2.56846,1.71231 -3.90131,4.96011 -6.54831,6.54831c-3.85863,2.31518 -9.07179,1.26174 -13.09662,3.27415c-1.3805,0.69025 -1.80991,2.78607 -3.27415,3.27415c-2.07076,0.69025 -4.52166,-0.81066 -6.54831,0c-8.16416,3.26566 -15.95377,12.88812 -22.91908,16.37077c-1.95233,0.97616 -4.59598,-0.97616 -6.54831,0c-2.76101,1.3805 -3.7873,5.1678 -6.54831,6.54831c-1.95233,0.97616 -4.52166,-0.81066 -6.54831,0c-8.26663,3.30665 -14.94452,9.10934 -22.91908,13.09662c-0.97616,0.48808 -2.3383,-0.56151 -3.27415,0c-4.67927,2.80756 -8.08091,7.67288 -13.09662,9.82246c-3.00942,1.28975 -6.71633,-1.03538 -9.82246,0c-3.73311,1.24437 -6.30285,4.7885 -9.82246,6.54831c-3.0869,1.54345 -6.86303,1.49849 -9.82246,3.27415c-7.30926,4.38556 -12.24403,12.14169 -19.64493,16.37077c-8.14079,4.65188 -17.73585,4.43396 -26.19324,6.54831c-2.36755,0.59189 -4.18076,2.68227 -6.54831,3.27415c-4.2352,1.0588 -9.19196,-1.95233 -13.09662,0c-2.76101,1.3805 -3.7873,5.1678 -6.54831,6.54831c-1.95233,0.97616 -4.52166,-0.81066 -6.54831,0c-3.6536,1.46144 -6.03882,5.46727 -9.82246,6.54831c-4.19757,1.19931 -8.86142,-1.0588 -13.09662,0c-4.73509,1.18377 -8.31058,5.5911 -13.09662,6.54831c-6.42115,1.28423 -13.13667,-0.72314 -19.64493,0c-3.43015,0.38113 -6.41816,2.70677 -9.82246,3.27415c-3.22961,0.53827 -6.64607,-0.7941 -9.82246,0c-1.49737,0.37434 -1.80991,2.78607 -3.27415,3.27415c-1.60695,0.53565 -14.594,3.27415 -16.37077,3.27415c-1.09138,0 -2.50243,-0.77173 -3.27415,0c-0.6033,0.6033 -2.67085,9.21916 -3.27415,9.82246c-3.6313,3.6313 -18.24913,-2.33498 -22.91908,0c-12.75588,6.37794 -16.84073,5.61358 -29.46739,9.82246c-2.07076,0.69025 -5.00486,-1.54345 -6.54831,0c-0.77173,0.77173 0.77173,2.50243 0,3.27415c-2.10947,2.10947 -24.57313,2.19408 -26.19324,3.27415c-2.03054,1.3537 -1.54852,4.82268 -3.27415,6.54831c-2.07684,2.07684 -10.3706,-1.36301 -13.09662,0c-2.18277,1.09138 -4.1079,3.27415 -6.54831,3.27415\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_0a6b4b59-f405-46ed-9822-4c49f976b763\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers (Vienne)",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers (Vienne)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Name form: Poictiers;Earliest attestation: 1366;<a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Name form: Poictiers;<br />Earliest attestation: 1366;<br /><a href=\"https://dicotopo.cths.fr/places/P85084308\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:45:25",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188325744",
+          "dcterms:modified" : "2022-02-18T12:45:25",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1436,556,914,265"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1436.08986,555.91594h456.76232v0h456.76232v132.62101v132.62101h-456.76232h-456.76232v-132.62101z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e048d8db-cf1f-4867-8541-1db446e80df9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, fortifications",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, fortifications"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Built by Henri II Plantagenet, the Poitiers fortification was augmented and restaured several times between the 12th and the 14th century. In the 17th, it was in poor condition.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Built by Henri II Plantagenet, the Poitiers fortification was augmented and restaured several times between the 12th and the 14th century. In the 17th, it was in poor condition.</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:01:19",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645189279763",
+          "dcterms:modified" : "2022-02-18T13:01:19",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=56,1388,2416,347"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M81.85386,1495.37907c0,-3.77847 10.46926,-3.27822 13.64231,-4.54744c2.98554,-1.19422 4.14568,-5.0375 6.82116,-6.82116c1.89185,-1.26123 4.66412,0.71901 6.82116,0c3.29074,-1.09691 7.72015,-3.33129 11.36859,-4.54744c5.90777,-1.96926 9.57857,-5.55366 15.91603,-6.82116c3.89107,-0.77821 10.76134,2.04774 13.64231,-2.27372c0.84082,-1.26123 -0.67789,-3.19165 0,-4.54744c0.75791,-1.51581 3.03162,-1.51581 4.54744,-2.27372c4.2255,-2.11275 11.39535,1.50689 15.91603,0c6.17367,-2.05789 11.94847,-2.05092 18.18975,-4.54744c3.78953,-1.51581 7.86878,-2.44755 11.36859,-4.54744c2.75729,-1.65437 3.70164,-6.04128 6.82116,-6.82116c2.94111,-0.73528 6.38331,1.35578 9.09487,0c2.55671,-1.27836 4.12782,-5.92338 6.82116,-6.82116c3.59853,-1.19951 10.92758,-0.47535 13.64231,-4.54744c0.84082,-1.26123 -0.67789,-3.19165 0,-4.54744c1.35578,-2.71157 6.15377,0.73528 9.09487,0c6.59149,-1.64787 13.94919,-1.94173 20.46347,-4.54744c1.57352,-0.62941 3.34908,-1.07536 4.54744,-2.27372c0.53592,-0.53592 -0.67789,-1.93477 0,-2.27372c4.24427,-2.12214 11.67175,2.12214 15.91603,0c2.14368,-1.07184 4.82697,-0.94426 6.82116,-2.27372c1.4101,-0.94007 0.86362,-3.60737 2.27372,-4.54744c1.89185,-1.26123 4.78748,1.01684 6.82116,0c7.44875,-3.72438 48.2324,-4.06313 54.56924,2.27372c0.53592,0.53592 -0.53592,1.7378 0,2.27372c0.84279,0.84279 7.69016,1.57136 9.09487,2.27372c6.78258,3.39129 10.28189,6.45892 18.18975,9.09487c9.47778,3.15926 27.01454,0 36.3795,0c7.12677,0 18.29069,2.24007 25.0109,0c4.60488,-1.53496 7.96273,-2.27372 13.64231,-2.27372c14.30206,0 31.34342,2.35516 45.47437,0c5.44304,-0.90717 23.21519,-6.38192 27.28462,-9.09487c1.78365,-1.1891 2.63007,-3.58875 4.54744,-4.54744c7.12634,-3.56317 18.37915,1.04216 25.0109,-2.27372c0.95868,-0.47934 1.25688,-1.93477 2.27372,-2.27372c1.46396,-0.48799 15.47868,-1.83637 15.91603,-2.27372c0.53592,-0.53592 -0.53592,-1.7378 0,-2.27372c5.28202,-5.28202 15.94529,-9.11438 22.73718,-13.64231c1.4101,-0.94007 1.07536,-3.34908 2.27372,-4.54744c1.07184,-1.07184 3.03162,0 4.54744,0c7.57906,0 15.15812,0 22.73718,0c5.2327,0 15.92632,-2.26858 20.46347,0c11.22315,5.61157 6.08932,24.64498 15.91603,29.55834c13.09868,6.54934 37.86832,2.27372 52.29552,2.27372c40.92693,0 81.85386,0 122.7808,0c12.1265,0 24.253,0 36.3795,0c2.01765,0 9.30808,1.03026 11.36859,0c7.27909,-3.63955 -4.37607,-20.63484 0,-25.0109c4.4799,-4.4799 11.91422,-4.54744 18.18975,-4.54744c14.40022,0 28.80043,0 43.20065,0c3.42627,0 12.66044,-1.62779 15.91603,0c7.73034,3.86517 4.54744,35.01419 4.54744,43.20065c0,1.82179 -1.45173,12.19058 0,13.64231c1.60776,1.60776 4.54744,0 6.82116,0c7.57906,0 15.15812,0 22.73718,0c22.26273,0 37.82319,1.85871 56.84296,11.36859c6.14424,3.07212 2.14392,23.32203 6.82116,29.55834c3.34604,4.46139 10.98935,11.17897 15.91603,13.64231c1.35578,0.67789 3.4756,-1.07184 4.54744,0c1.46185,1.46185 5.3593,7.63302 6.82116,9.09487c2.89621,2.89621 6.01245,3.00623 9.09487,4.54744c3.76105,1.88053 8.71338,10.9871 11.36859,13.64231c2.15921,2.15921 14.92371,2.5628 15.91603,4.54744c1.07184,2.14368 0.57899,5.12643 2.27372,6.82116c0.53592,0.53592 1.51581,0 2.27372,0c4.82267,0 13.64499,1.51492 18.18975,0c2.59244,-0.86415 4.17008,-3.88467 6.82116,-4.54744c2.65339,-0.66335 29.47873,-1.17666 31.83206,0c12.91792,6.45896 1.48619,26.89086 11.36859,31.83206c3.67299,1.83649 18.97882,0.39454 27.28462,4.54744c1.91737,0.95868 2.83249,3.26123 4.54744,4.54744c4.64903,3.48677 8.50593,1.46561 13.64231,4.54744c1.83819,1.10292 2.55708,3.75129 4.54744,4.54744c3.4332,1.37328 10.20086,-1.72072 13.64231,0c4.25579,2.1279 8.79152,5.20422 13.64231,6.82116c3.36561,1.12187 7.88283,-0.69715 11.36859,0c6.23184,1.24637 9.60605,4.54744 15.91603,4.54744c2.68026,0 12.19058,-1.45173 13.64231,0c1.07184,1.07184 -1.07184,3.4756 0,4.54744c1.51985,1.51985 14.33545,0 15.91603,0c4.49017,0 11.69758,-1.05461 15.91603,0c1.64413,0.41103 2.85271,2.27372 4.54744,2.27372c2.27372,0 4.54744,0 6.82116,0c0.75791,0 2.80964,0.53592 2.27372,0c-0.41896,-0.41896 -6.4022,-1.85476 -6.82116,-2.27372c-1.41984,-1.41984 -0.61585,-16.34218 0,-18.18975c0.92987,-2.78962 7.9936,-9.16605 9.09487,-11.36859c2.47759,-4.95517 4.23547,-4.39145 9.09487,-6.82116c4.54129,-2.27065 8.15999,-7.99841 13.64231,-9.09487c13.78499,-2.757 31.20483,0 45.47437,0c5.10684,0 16.01125,-2.22611 20.46347,0c1.35578,0.67789 -0.67789,3.19165 0,4.54744c3.53313,7.06627 4.47949,25.28269 2.27372,34.10578c-0.06789,0.27156 -4.59683,10.20704 -2.27372,11.36859c3.96821,1.98411 13.9648,0 18.18975,0c15.15812,0 30.31625,0 45.47437,0c5.35921,0 10.6609,1.22269 15.91603,2.27372c8.68339,1.73668 18.70868,-2.14398 27.28462,0c10.47758,2.6194 21.65065,-0.27163 31.83206,2.27372c1.03984,0.25996 1.23388,2.01376 2.27372,2.27372c3.67638,0.9191 7.77353,-1.19835 11.36859,0c10.66906,3.55635 24.24773,2.27372 36.3795,2.27372c14.40022,0 28.80043,0 43.20065,0c1.65592,0 12.26565,1.37666 13.64231,0c2.0622,-2.0622 -1.28855,-11.06521 0,-13.64231c1.85353,-3.70707 7.15845,-4.88473 9.09487,-6.82116c3.15147,-3.15147 4.53386,-9.08809 9.09487,-11.36859c2.40939,-1.20469 6.51859,0.85876 9.09487,0c5.78051,-1.92684 8.7216,-6.63452 13.64231,-9.09487c4.12438,-2.06219 24.3055,0 29.55834,0c2.35854,0 24.84608,-0.16482 25.0109,0c2.00132,2.00132 0,15.83938 0,18.18975c0,7.54595 -0.49906,21.3508 6.82116,25.0109c1.35578,0.67789 3.2862,-0.84082 4.54744,0c1.78365,1.1891 2.63007,3.58875 4.54744,4.54744c3.38946,1.69473 7.57906,0 11.36859,0c12.1265,0 24.253,0 36.3795,0c28.80043,0 57.60087,0 86.4013,0c13.7067,0 29.6424,-2.25971 43.20065,0c6.39566,1.06594 12.17576,4.81649 18.18975,6.82116c7.49404,2.49801 21.46225,0 29.55834,0c2.63029,0 13.7976,1.41228 15.91603,0c3.00249,-2.00166 8.29759,-20.68985 11.36859,-22.73718c8.07861,-5.38574 20.10874,-7.20495 29.55834,-9.09487c1.48638,-0.29728 3.24764,0.77988 4.54744,0c4.04842,-2.42905 6.95995,-7.62533 11.36859,-9.09487c7.54376,-2.51459 19.29644,0 27.28462,0c14.08629,0 18.18975,2.35439 18.18975,18.18975c0,1.41807 -1.15812,12.48419 0,13.64231c0.08106,0.08106 26.44121,0 27.28462,0c15.91603,0 31.83206,0 47.74809,0c7.87073,0 19.37601,-1.97715 27.28462,0c16.19696,4.04924 34.12725,-1.69992 50.02181,2.27372c7.56444,1.89111 12.69735,2.27372 20.46347,2.27372c2.27372,0 6.82116,2.27372 6.82116,0c0,-1.82643 -5.96385,-5.10655 -6.82116,-6.82116c-2.21668,-4.43336 -4.3182,-27.74309 -2.27372,-31.83206c3.12118,-6.24236 5.57975,-15.19078 9.09487,-20.46347c1.1891,-1.78365 3.58875,-2.63007 4.54744,-4.54744c0.67789,-1.35578 -0.77988,-3.24764 0,-4.54744c2.20583,-3.67638 6.71667,-5.52757 9.09487,-9.09487c3.97082,-5.95623 0.76381,-7.58497 6.82116,-13.64231c2.76935,-2.76935 5.07997,-1.06506 6.82116,-4.54744c2.49741,-4.99483 4.61568,-15.93878 11.36859,-18.18975c7.50327,-2.50109 17.50763,2.50109 25.0109,0c7.79505,-2.59835 22.92322,-9.00186 31.83206,-4.54744c12.58905,6.29453 12.30178,22.32984 18.18975,34.10578c0.12237,0.24474 8.27158,6.62499 9.09487,9.09487c0.71901,2.15704 -1.26123,4.92931 0,6.82116c1.1891,1.78365 3.35834,2.76379 4.54744,4.54744c0.78598,1.17897 1.35702,5.90446 2.27372,6.82116c1.19835,1.19835 3.78953,0.75791 4.54744,2.27372c2.01116,4.02231 0,13.99206 0,18.18975c0,17.29813 2.90356,39.03742 -2.27372,54.56924c-2.95098,8.85295 3.84667,28.68616 0,36.3795c-0.95868,1.91737 -3.86955,2.51376 -4.54744,4.54744c-1.94027,5.82081 -4.02627,10.32625 -6.82116,15.91603c-0.67789,1.35578 1.07184,3.4756 0,4.54744c-0.08,0.08 -6.01161,1.46417 -6.82116,2.27372c-2.08393,2.08393 -1.58685,9.39487 -4.54744,11.36859c-1.58879,1.05919 -19.39379,0 -20.46347,0c-6.4639,0 -14.19029,1.25464 -20.46347,0c-6.88487,-1.37697 -17.51847,-4.7712 -25.0109,-2.27372c-3.05051,1.01684 -3.9451,5.38313 -6.82116,6.82116c-5.98303,2.99151 -18.72375,12.94038 -25.0109,11.36859c-8.57815,-2.14454 -15.26053,-8.11162 -20.46347,-15.91603c-2.71159,-4.06738 3.51362,-13.02236 -2.27372,-15.91603c-3.13867,-1.56933 -15.25852,0 -18.18975,0c-17.40018,0 -36.37922,5.91172 -54.56924,2.27372c-17.66492,-3.53298 -36.33041,-4.54744 -54.56924,-4.54744c-3.98617,0 -19.05711,2.45338 -22.73718,0c-1.78365,-1.1891 -2.55708,-3.75129 -4.54744,-4.54744c-7.13211,-2.85284 -15.71502,1.23736 -22.73718,-2.27372c-2.03368,-1.01684 -4.54744,0 -6.82116,0c-6.06325,0 -12.1265,0 -18.18975,0c-0.75791,0 -1.93477,-0.67789 -2.27372,0c-1.47903,2.95807 2.11768,5.35736 -2.27372,6.82116c-7.52731,2.5091 -14.43898,0.61408 -22.73718,2.27372c-10.93034,2.18607 -19.92303,4.54744 -31.83206,4.54744c-5.30534,0 -10.61069,0 -15.91603,0c-0.75791,0 -1.85331,0.63062 -2.27372,0c-1.32946,-1.99418 -0.94426,-4.82697 -2.27372,-6.82116c-0.42041,-0.63062 -1.59583,0.33895 -2.27372,0c-2.44417,-1.22209 -4.63502,-2.90784 -6.82116,-4.54744c-1.71495,-1.28621 -2.63007,-3.58875 -4.54744,-4.54744c-3.15126,-1.57563 -10.0165,0 -13.64231,0c-11.36859,0 -22.73718,0 -34.10578,0c-35.62159,0 -71.24318,0 -106.86477,0c-7.50985,0 -35.16293,2.882 -40.92693,0c-1.91737,-0.95868 -2.51376,-3.86955 -4.54744,-4.54744c-5.16503,-1.72168 -14.81898,0 -20.46347,0c-7.99634,0 -20.00465,-2.42666 -27.28462,0c-7.75522,2.58507 -14.80598,9.78235 -22.73718,11.36859c-5.97528,1.19506 -19.48796,2.70646 -25.0109,4.54744c-1.01684,0.33895 -1.23388,2.01376 -2.27372,2.27372c-11.53877,2.88469 -39.01645,-0.18162 -47.74809,-4.54744c-4.39382,-2.19691 -2.27372,-11.8754 -2.27372,-15.91603c0,-0.75791 0.73528,-2.0899 0,-2.27372c-6.98931,-1.74733 -17.55977,0 -25.0109,0c-51.53762,0 -103.07524,0 -154.61286,0c-13.64231,0 -27.28462,0 -40.92693,0c-4.01083,0 -12.33089,-1.79257 -15.91603,0c-3.63235,1.81618 -2.84575,7.39319 -4.54744,9.09487c-1.36847,1.36847 -11.65052,2.27372 -13.64231,2.27372c-10.61069,0 -21.22137,0 -31.83206,0c-2.80491,0 -8.98566,1.19147 -11.36859,0c-1.91737,-0.95868 -2.55708,-3.75129 -4.54744,-4.54744c-7.27848,-2.91139 -14.9374,1.62617 -22.73718,-2.27372c-1.51581,-0.75791 -1.07536,-3.34908 -2.27372,-4.54744c-1.69473,-1.69473 -4.67747,-1.20188 -6.82116,-2.27372c-1.81897,-0.90949 -5.00218,0.90949 -6.82116,0c-0.67789,-0.33895 0,-1.51581 0,-2.27372c0,-1.01141 0.70551,-7.68386 0,-9.09487c-0.75791,-1.51581 -3.34908,-1.07536 -4.54744,-2.27372c-0.53592,-0.53592 0.71901,-2.03405 0,-2.27372c-12.97983,-4.32661 -29.88163,3.32976 -43.20065,0c-4.93239,-1.2331 -8.75374,-5.42442 -13.64231,-6.82116c-3.64372,-1.04106 -7.69221,0.9191 -11.36859,0c-8.59508,-2.14877 -16.09103,-3.27317 -25.0109,-4.54744c-1.46409,-0.20916 -20.90507,-5.9051 -22.73718,-6.82116c-1.91737,-0.95868 -2.55708,-3.75129 -4.54744,-4.54744c-2.11109,-0.84444 -4.61532,0.55146 -6.82116,0c-1.03984,-0.25996 -1.23388,-2.01376 -2.27372,-2.27372c-7.57265,-1.89316 -17.79202,-0.938 -25.0109,-4.54744c-1.91737,-0.95868 -2.51376,-3.86955 -4.54744,-4.54744c-2.25044,-0.75015 -7.31788,-0.49672 -9.09487,-2.27372c-0.41896,-0.41896 -1.85476,-6.4022 -2.27372,-6.82116c-1.18307,-1.18307 -7.17238,0 -9.09487,0c-1.71425,0 -20.60642,-3.83718 -22.73718,-4.54744c-3.99921,-1.33307 -1.34932,-4.04797 -2.27372,-6.82116c-1.20225,-3.60676 -6.95925,-4.68553 -9.09487,-6.82116c-2.57169,-2.57169 1.77125,-11.61982 -6.82116,-15.91603c-4.92722,-2.46361 -7.98831,-9.11911 -13.64231,-13.64231c-2.64672,-2.11738 -6.06325,-3.03162 -9.09487,-4.54744c-7.64629,-3.82314 -13.24365,-13.37654 -20.46347,-18.18975c-1.4101,-0.94007 -3.60737,-0.86362 -4.54744,-2.27372c-0.84082,-1.26123 0.47934,-3.10941 0,-4.54744c-1.40674,-4.22023 -4.83594,-0.577 -6.82116,-4.54744c-2.71004,-5.42007 -5.89766,-5.44759 -11.36859,-9.09487c-1.3768,-0.91787 -4.45229,-6.77358 -4.54744,-6.82116c-1.35578,-0.67789 -3.10941,0.47934 -4.54744,0c-3.33399,-1.11133 -8.28267,-5.2782 -11.36859,-6.82116c-3.64142,-1.82071 -5.67888,-6.81754 -9.09487,-9.09487c-0.42357,-0.28238 -8.86203,-2.04087 -9.09487,-2.27372c-1.51581,-1.51581 -2.51376,-3.86955 -4.54744,-4.54744c-7.66237,-2.55412 -17.12624,-0.69679 -25.0109,-2.27372c-19.4412,-3.88824 -41.04061,-2.27372 -61.3904,-2.27372c-8.59948,0 -23.71827,2.7046 -31.83206,0c-3.08686,-1.02895 -5.31931,-3.60355 -9.09487,-4.54744c-2.20583,-0.55146 -4.78748,1.01684 -6.82116,0c-0.95868,-0.47934 -1.22269,-2.06351 -2.27372,-2.27372c-13.8163,-2.76326 -31.14385,0 -45.47437,0c-15.38777,0 -48.8722,3.12955 -61.3904,0c-27.15601,-6.789 -55.51033,-6.82116 -84.12758,-6.82116c-8.98721,0 -23.93695,-2.6317 -31.83206,0c-6.01845,2.00615 -9.89758,4.81501 -15.91603,6.82116c-3.00577,1.00192 -8.9604,-1.80614 -11.36859,0c-2.57242,1.92931 -4.24874,4.89184 -6.82116,6.82116c-2.49994,1.87496 -6.13031,1.28553 -9.09487,2.27372c-7.51828,2.50609 -17.28728,-1.93091 -25.0109,0c-1.03984,0.25996 -1.31503,1.79438 -2.27372,2.27372c-2.56349,1.28174 -8.59291,0 -11.36859,0c-14.64516,0 -24.74933,-4.04038 -38.65321,-6.82116c-6.5588,-1.31176 -13.90466,1.31176 -20.46347,0c-1.6182,-0.32364 -16.77229,-1.56499 -18.18975,-2.27372c-2.44417,-1.22209 -4.22872,-3.68329 -6.82116,-4.54744c-7.69183,-2.56394 -17.16143,-1.93095 -25.0109,-4.54744c-3.63866,-1.21289 -12.29387,0 -15.91603,0c-12.1265,0 -24.253,0 -36.3795,0c-3.35608,0 -8.50015,-1.43422 -11.36859,0c-8.24566,4.12283 -11.84847,13.04436 -20.46347,15.91603c-9.2843,3.09477 -28.22273,0 -38.65321,0c-24.253,0 -48.50599,0 -72.75899,0c-9.9928,0 -21.98661,-1.64091 -31.83206,0c-4.32243,0.72041 -14.42789,1.53795 -18.18975,4.54744c-6.71237,5.36989 -9.74357,10.82692 -18.18975,13.64231c-3.76611,1.25537 -14.70703,3.33844 -18.18975,6.82116c-1.93229,1.93229 -2.20419,5.41521 -4.54744,6.82116c-3.56721,2.14033 -14.11164,-1.01953 -18.18975,0c-1.03984,0.25996 -1.23388,2.01376 -2.27372,2.27372c-8.09281,2.0232 -19.70685,-3.24762 -27.28462,0c-2.95553,1.26666 -4.06387,5.16678 -6.82116,6.82116c-1.2998,0.77988 -3.19165,-0.67789 -4.54744,0c-1.91737,0.95868 -2.76379,3.35834 -4.54744,4.54744c-1.26123,0.84082 -3.19165,-0.67789 -4.54744,0c-1.91737,0.95868 -2.63007,3.58875 -4.54744,4.54744c-1.35578,0.67789 -3.19165,-0.67789 -4.54744,0c-2.64859,1.3243 -4.17256,3.22314 -6.82116,4.54744c-3.16133,1.58067 -12.47128,0 -15.91603,0c-1.65592,0 -12.26565,1.37666 -13.64231,0c-1.13453,-1.13453 0,-9.58825 0,-11.36859c0,-2.39671 1.51581,-4.54744 2.27372,-6.82116c2.22432,-6.67296 0,-17.791 0,-25.0109c0,-3.58789 1.86307,-11.36859 -2.27372,-11.36859\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_282f03ff-2e90-4621-bf5f-d96e1732c50c\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, St-Cyprien Abbey bridge",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, St-Cyprien Abbey bridge"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:57:32",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645189052131",
+          "dcterms:modified" : "2022-02-18T12:57:32",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=2405,1715,576,622"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2404.59893,1715.08075c2.18277,2.18277 3.61982,5.57214 6.54831,6.54831c3.10614,1.03538 8.35822,-2.92849 9.82246,0c0.97616,1.95233 -0.69025,4.47755 0,6.54831c1.2928,3.8784 7.98163,6.1408 9.82246,9.82246c1.09138,2.18277 1.09138,5.45692 3.27415,6.54831c0.97616,0.48808 2.50243,-0.77173 3.27415,0c3.0753,3.0753 4.62873,11.36537 9.82246,13.09662c6.48895,2.16298 8.60943,-0.18247 13.09662,6.54831c1.3537,2.03054 1.54852,4.82268 3.27415,6.54831c1.72563,1.72563 5.45692,1.09138 6.54831,3.27415c0.99217,1.98434 1.90214,8.45045 3.27415,9.82246c4.92724,4.92724 13.82913,6.91457 19.64493,9.82246c4.18175,2.09088 3.2888,6.56296 6.54831,9.82246c2.7825,2.7825 6.54831,4.36554 9.82246,6.54831c7.55574,5.03716 12.08919,14.60777 19.64493,19.64493c3.27415,2.18277 6.30285,4.7885 9.82246,6.54831c1.95233,0.97616 4.73213,-1.21078 6.54831,0c2.56846,1.71231 3.97985,4.836 6.54831,6.54831c1.53774,1.02516 8.28473,2.249 9.82246,3.27415c4.84379,3.22919 7.9131,10.50486 13.09662,13.09662c3.0869,1.54345 6.86303,1.49849 9.82246,3.27415c8.63913,5.18348 11.29602,16.6574 19.64493,22.91908c4.36554,3.27415 10.06966,5.28203 13.09662,9.82246c0.60539,0.90809 -0.77173,2.50243 0,3.27415c3.85863,3.85863 11.37099,4.64557 13.09662,9.82246c0.69025,2.07076 -0.69025,4.47755 0,6.54831c2.3653,7.0959 15.08072,13.55932 19.64493,19.64493c2.36103,3.14804 3.76581,7.03997 6.54831,9.82246c0.77173,0.77173 2.29799,-0.48808 3.27415,0c2.18277,1.09138 1.54852,4.82268 3.27415,6.54831c5.80051,5.80051 16.99775,7.17529 22.91908,13.09662c1.72563,1.72563 1.54852,4.82268 3.27415,6.54831c0.77173,0.77173 2.50243,-0.77173 3.27415,0c0.77173,0.77173 -0.48808,2.29799 0,3.27415c1.3805,2.76101 4.836,3.97985 6.54831,6.54831c2.70739,4.06109 2.64365,10.16813 6.54831,13.09662c2.76101,2.07076 6.73556,1.7307 9.82246,3.27415c3.0869,1.54345 1.7307,6.73556 3.27415,9.82246c3.24737,6.49473 12.31076,10.28075 16.37077,16.37077c4.12073,6.18109 5.8908,13.74743 9.82246,19.64493c0.60539,0.90809 2.36607,-0.60539 3.27415,0c4.45166,2.96777 16.40083,11.50462 19.64493,16.37077c7.49242,11.23863 17.77238,14.96542 26.19324,26.19324c1.46425,1.95233 1.54852,4.82268 3.27415,6.54831c3.89374,3.89374 12.16319,7.71867 16.37077,9.82246c6.78708,3.39354 7.16288,12.41495 13.09662,16.37077c2.03054,1.3537 4.82268,1.54852 6.54831,3.27415c2.44041,2.44041 1.7307,6.73556 3.27415,9.82246c1.75981,3.51961 4.7885,6.30285 6.54831,9.82246c0.48808,0.97616 -0.97616,2.78607 0,3.27415c1.95233,0.97616 4.43071,-0.5294 6.54831,0c3.66468,0.91617 15.29132,8.77879 16.37077,13.09662c0.7941,3.1764 -0.7941,6.64607 0,9.82246c0.37434,1.49737 2.34808,2.03939 3.27415,3.27415c3.17422,4.2323 9.06658,15.61489 13.09662,19.64493c4.35546,4.35546 13.29545,3.67183 16.37077,9.82246c2.53877,5.07754 -1.04036,6.62484 3.27415,13.09662c3.02696,4.54044 11.06997,4.75584 13.09662,9.82246c1.21599,3.03998 -0.7941,6.64607 0,9.82246c0.74868,2.99474 5.1678,3.7873 6.54831,6.54831c0.97616,1.95233 -0.97616,4.59598 0,6.54831c1.09138,2.18277 4.82268,1.54852 6.54831,3.27415c2.7825,2.7825 4.7885,6.30285 6.54831,9.82246c0.48808,0.97616 -0.77173,2.50243 0,3.27415c1.72563,1.72563 4.82268,1.54852 6.54831,3.27415c0.77173,0.77173 -0.48808,2.29799 0,3.27415c0,0 6.54831,6.54831 6.54831,6.54831c1.83088,5.49263 -0.52526,12.83399 6.54831,16.37077c0.97616,0.48808 2.50243,-0.77173 3.27415,0c0.77173,0.77173 -0.34513,2.23878 0,3.27415c1.54345,4.63035 5.36454,8.36153 6.54831,13.09662c0.7941,3.1764 -2.31518,7.50729 0,9.82246c0.77173,0.77173 2.92903,-1.03538 3.27415,0c1.03538,3.10614 -0.7941,6.64607 0,9.82246c1.34285,5.37138 9.87906,6.60491 13.09662,9.82246\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_94ef2fc6-4e8a-4325-93ba-34a0907ac5ed\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Saint-Pierre (cathedral)",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Saint-Pierre (cathedral)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:58:10",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645189090757",
+          "dcterms:modified" : "2022-02-18T12:58:10",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3177,920,293,425"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3177.07068,919.83908h146.51798v0h146.51798v212.45582v212.45582h-146.51798h-146.51798v-212.45582z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2bc6878b-96c4-4b2c-9348-d07d3c1fea1d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Pré du Roy",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Pré du Roy"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:56:20",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188980633",
+          "dcterms:modified" : "2022-02-18T12:56:20",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=181,1845,2015,359"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M181.44797,1855.8694c0,69.84863 0,139.69726 0,209.54589c0,17.46216 0,34.92432 0,52.38647c0,6.05796 -1.58711,14.78366 3.27415,19.64493c2.31518,2.31518 6.78249,-1.21599 9.82246,0c3.6536,1.46144 6.30285,4.7885 9.82246,6.54831c3.43143,1.71571 12.5819,0 16.37077,0c15.27939,0 30.55878,0 45.83816,0c56.75201,0 113.50403,0 170.25604,0c17.46216,0 34.92432,0 52.38647,0c2.48871,0 18.48176,-1.10933 22.91908,0c5.90549,1.47637 8.36079,8.63851 13.09662,9.82246c7.73629,1.93407 18.51149,-1.53635 26.19324,0c1.51348,0.3027 1.80991,2.78607 3.27415,3.27415c2.07076,0.69025 4.43071,-0.5294 6.54831,0c5.70181,1.42545 10.57345,5.58209 16.37077,6.54831c29.73286,4.95548 61.94347,-4.95548 91.67633,0c11.8379,1.97298 20.97332,10.74297 32.74155,13.09662c12.5929,2.51858 26.69695,-2.51858 39.28986,0c13.20156,2.64031 25.91397,3.87313 39.28986,6.54831c10.5581,2.11162 22.07255,-1.52414 32.74155,0c18.95342,2.70763 36.42646,3.27415 55.66063,3.27415c10.73326,0 25.53088,-2.6212 36.0157,0c8.05419,2.01355 15.18067,4.61371 22.91908,6.54831c10.30336,2.57584 22.31162,-2.08598 32.74155,0c3.38424,0.67685 6.47425,2.4371 9.82246,3.27415c3.08156,0.77039 6.74091,-0.77039 9.82246,0c2.36755,0.59189 4.15529,2.79555 6.54831,3.27415c8.39527,1.67905 17.79797,-1.67905 26.19324,0c3.38424,0.67685 6.41816,2.70677 9.82246,3.27415c15.37178,2.56196 33.55086,0 49.11232,0c13.83497,0 51.97941,2.92272 62.20894,0c3.78364,-1.08104 6.16887,-5.08687 9.82246,-6.54831c6.37873,-2.55149 26.88701,-0.23126 36.0157,-3.27415c11.33994,-3.77998 20.79388,-10.1097 32.74155,-13.09662c4.99432,-1.24858 22.97211,2.14742 26.19324,0c2.03054,-1.3537 1.00829,-5.64196 3.27415,-6.54831c4.0533,-1.62132 8.81585,0.85615 13.09662,0c1.51348,-0.3027 1.77679,-2.89981 3.27415,-3.27415c16.82822,-4.20705 33.34739,3.07221 52.38647,-3.27415c9.0114,-3.0038 32.16838,0 42.56401,0c18.28825,0 40.74141,-3.03223 58.93478,0c3.4043,0.56738 6.43822,2.59731 9.82246,3.27415c7.12648,1.4253 16.06701,-2.28402 22.91908,0c1.46425,0.48808 1.80991,2.78607 3.27415,3.27415c5.17689,1.72563 11.01982,-1.07019 16.37077,0c5.94883,1.18977 11.503,4.11442 16.37077,6.54831c3.43143,1.71571 12.5819,0 16.37077,0c9.82246,0 19.64493,0 29.46739,0c9.60851,0 41.09519,2.67238 49.11232,0c2.92849,-0.97616 3.90131,-4.96011 6.54831,-6.54831c0.30687,-0.18412 17.96067,-6.2676 19.64493,-6.54831c4.30614,-0.71769 8.79048,0.71769 13.09662,0c2.40721,-0.4012 4.18076,-2.68227 6.54831,-3.27415c2.1176,-0.5294 4.47755,0.69025 6.54831,0c1.46425,-0.48808 1.8411,-2.70093 3.27415,-3.27415c5.16697,-2.06679 11.39329,-0.78541 16.37077,-3.27415c1.3805,-0.69025 1.89365,-2.5839 3.27415,-3.27415c0,0 6.54831,0 6.54831,0c4.54044,-3.02696 7.91973,-8.09683 13.09662,-9.82246c3.92899,-1.30966 9.16763,1.30966 13.09662,0c1.46425,-0.48808 1.80991,-2.78607 3.27415,-3.27415c2.07076,-0.69025 4.43071,0.5294 6.54831,0c2.36755,-0.59189 4.15529,-2.79555 6.54831,-3.27415c5.93347,-1.18669 13.6938,1.48778 19.64493,0c2.36755,-0.59189 4.28244,-2.36781 6.54831,-3.27415c3.20442,-1.28177 7.38205,-0.83374 9.82246,-3.27415c2.44041,-2.44041 1.35974,-6.95084 3.27415,-9.82246c1.81617,-2.72426 6.71633,1.03538 9.82246,0c1.46425,-0.48808 1.77679,-2.89981 3.27415,-3.27415c10.10025,-2.52506 26.53591,-1.80841 36.0157,-6.54831c2.76101,-1.3805 3.61982,-5.57214 6.54831,-6.54831c4.26298,-1.42099 12.36224,2.00426 16.37077,0c4.88082,-2.44041 9.23799,-5.96384 13.09662,-9.82246c0.77173,-0.77173 -1.0588,-3.00945 0,-3.27415c8.21749,-2.05437 17.97575,2.05437 26.19324,0c2.36755,-0.59189 4.18076,-2.68227 6.54831,-3.27415c4.2352,-1.0588 9.46427,2.42157 13.09662,0c2.03054,-1.3537 1.03106,-5.58698 3.27415,-6.54831c9.08383,-3.89307 19.96474,-0.55911 29.46739,-3.27415c7.03954,-2.0113 12.54229,-8.0468 19.64493,-9.82246c2.1176,-0.5294 4.47755,0.69025 6.54831,0c1.46425,-0.48808 1.80991,-2.78607 3.27415,-3.27415c2.07076,-0.69025 4.40793,0.42808 6.54831,0c5.76315,-1.15263 10.79509,-4.68975 16.37077,-6.54831c12.49226,-4.16409 23.67643,-8.16091 36.0157,-13.09662c8.56923,-3.42769 24.83578,-0.95835 29.46739,-3.27415c1.3805,-0.69025 1.89365,-2.5839 3.27415,-3.27415c0.97616,-0.48808 2.50243,0.77173 3.27415,0c0.77173,-0.77173 -0.97616,-2.78607 0,-3.27415c1.95233,-0.97616 4.43071,0.5294 6.54831,0c2.36755,-0.59189 4.18076,-2.68227 6.54831,-3.27415c8.16687,-2.04172 11.265,3.01079 19.64493,-3.27415c2.62044,-1.96533 3.80515,-6.8138 9.82246,-9.82246c6.48312,-3.24156 19.22226,1.74275 26.19324,0c1.49737,-0.37434 1.89365,-2.5839 3.27415,-3.27415c3.0869,-1.54345 6.43822,-2.59731 9.82246,-3.27415c2.50099,-0.5002 10.41475,1.34093 13.09662,0c1.3805,-0.69025 1.89365,-2.5839 3.27415,-3.27415c2.92849,-1.46425 6.71633,1.03538 9.82246,0c1.46425,-0.48808 1.89365,-2.5839 3.27415,-3.27415c1.95233,-0.97616 5.00486,1.54345 6.54831,0c1.72563,-1.72563 1.24361,-5.19461 3.27415,-6.54831c6.71585,-4.47723 15.39172,-4.59021 19.64493,-13.09662c1.54345,-3.0869 1.2034,-7.06145 3.27415,-9.82246c1.46425,-1.95233 4.82268,-1.54852 6.54831,-3.27415c0.77173,-0.77173 -0.77173,-2.50243 0,-3.27415c1.74084,-1.74084 8.65834,-1.89182 9.82246,-6.54831c0.7941,-3.1764 -0.7941,-6.64607 0,-9.82246c1.12627,-4.5051 11.53241,-9.67672 6.54831,-19.64493c-0.48808,-0.97616 -2.29799,0.48808 -3.27415,0c-5.34666,-2.67333 -10.03464,-4.43626 -16.37077,-6.54831c-1.85178,-0.61726 -8.50743,1.31503 -9.82246,0c-0.77173,-0.77173 0.77173,-2.50243 0,-3.27415c-1.53335,-1.53335 -17.31912,-4.99777 -19.64493,-6.54831c-6.07075,-4.04717 -26.64924,-21.396 -32.74155,-22.91908c-2.21192,-0.55298 -25.62522,-3.04695 -26.19324,-3.27415c-6.79759,-2.71904 -12.54229,-8.0468 -19.64493,-9.82246c-13.04126,-3.26032 -43.49562,0 -58.93478,0c-20.73631,0 -41.47262,0 -62.20894,0c-8.82881,0 -20.92211,2.13632 -29.46739,0c-2.36755,-0.59189 -4.18076,-2.68227 -6.54831,-3.27415c-2.76479,-0.6912 -10.23436,1.43113 -13.09662,0c-1.3805,-0.69025 -1.80991,-2.78607 -3.27415,-3.27415c-12.35439,-4.11813 -26.71512,3.01321 -39.28986,-3.27415c-1.3805,-0.69025 -1.80991,-2.78607 -3.27415,-3.27415c-10.97151,-3.65717 -32.19447,4.14782 -42.56401,0c-2.86612,-1.14645 -3.7873,-5.1678 -6.54831,-6.54831c-5.16139,-2.5807 -17.47666,1.08848 -22.91908,0c-2.39302,-0.4786 -4.18076,-2.68227 -6.54831,-3.27415c-4.2352,-1.0588 -8.79048,0.71769 -13.09662,0c-4.43867,-0.73978 -8.65795,-2.53438 -13.09662,-3.27415c-19.95906,-3.32651 -59.76631,0 -81.85386,0c-60.02617,0 -120.05233,0 -180.0785,0c-26.19324,0 -52.38647,0 -78.57971,0c-12.60023,0 -26.81476,-1.78216 -39.28986,0c-6.83315,0.97616 -12.83632,5.41354 -19.64493,6.54831c-8.119,1.35317 -18.05029,-1.62859 -26.19324,0c-2.39302,0.4786 -4.23313,2.50243 -6.54831,3.27415c-3.10614,1.03538 -6.61189,-0.64211 -9.82246,0c-3.38424,0.67685 -6.43822,2.59731 -9.82246,3.27415c-11.8443,2.36886 -13.19655,-1.05808 -26.19324,3.27415c-12.28093,4.09364 -29.81293,-1.82158 -42.56401,0c-10.9034,1.55763 -21.83815,4.99068 -32.74155,6.54831c-22.93252,3.27607 -48.81198,0 -72.0314,0c-50.2037,0 -100.40741,0 -150.61111,0c-37.10709,0 -74.21417,0 -111.32126,0c-14.06095,0 -43.50162,3.03975 -55.66063,0c-3.34822,-0.83705 -6.39785,-2.84608 -9.82246,-3.27415c-13.85052,-1.73132 -28.78784,2.29603 -42.56401,0c-13.4305,-2.23842 -25.57627,-4.58923 -39.28986,-6.54831c-14.85954,-2.12279 -31.22081,3.2483 -45.83816,0c-3.84134,-0.85363 -6.08935,-5.30394 -9.82246,-6.54831c-3.10614,-1.03538 -6.59286,0.53827 -9.82246,0c-3.4043,-0.56738 -6.41816,-2.70677 -9.82246,-3.27415c-3.22961,-0.53827 -6.64607,0.7941 -9.82246,0c-1.49737,-0.37434 -1.89365,-2.5839 -3.27415,-3.27415c-5.61258,-2.80629 -31.77025,0 -39.28986,0c-31.65016,0 -63.30032,0 -94.95048,0c-9.17687,0 -20.3585,1.82178 -29.46739,0c-2.39302,-0.4786 -4.15529,-2.79555 -6.54831,-3.27415c-13.8353,-2.76706 -31.74674,0 -45.83816,0c-11.16834,0 -47.67788,2.66092 -55.66063,0c-10.65589,-3.55196 -21.29891,-4.25978 -32.74155,-6.54831c-11.84318,-2.36864 -27.04666,0 -39.28986,0c-29.46739,0 -58.93478,0 -88.40217,0\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_8cda7384-4aa7-4811-8ba6-56e2cf158334\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://a2080e8d-0403-4590-bfbe-237c71421003"
+          } ]
+        } ],
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/258f439472e9ace8369848b581ca4a3c.json",
+        "@context" : "http://iiif.io/api/presentation/2/context.json"
+      } ]
+    }, {
+      "@id" : "http://29ba2561-061f-485d-a423-723e67d2b2c1",
+      "@type" : "sc:Canvas",
+      "label" : "City views of Montpellier, Tours and Poitiers by Frans Hogenberg (1539?-1590?)",
+      "height" : 4900,
+      "width" : 6484,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Bibliothèque nationale de France"
+      }, {
+        "label" : "Source Images",
+        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b531788420/f1"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "Bibliothèque nationale de France, département Cartes et plans, GE DD-1605 (9)"
+      }, {
+        "label" : "Title",
+        "value" : "Monspessulanus, Montpellier; Turo, Tours; Pictavis, sive Pictavia, vernaculo idiomate Poitiers…"
+      }, {
+        "label" : "Date",
+        "value" : "1645"
+      }, {
+        "label" : "Language",
+        "value" : [ {
+          "@value" : "français"
+        }, {
+          "@value" : "latin"
+        } ]
+      }, {
+        "label" : "Format",
+        "value" : [ {
+          "@value" : "3 city views: engraving, colour; 41 x 54 cm"
+        }, {
+          "@value" : "image/jpeg"
+        } ]
+      }, {
+        "label" : "Creator",
+        "value" : [ {
+          "@value" : "Braun, Georg (1541-1622). Editor"
+        }, {
+          "@value" : "Hogenberg, Frans (1539?-1590?). Engraver"
+        } ]
+      }, {
+        "label" : "Relation",
+        "value" : "Contained in Théâtre des cités du monde; 9"
+      }, {
+        "label" : "Type",
+        "value" : "City view"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5b582a6c-65c8-41fa-b723-41ffb18b30fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531788420/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531788420/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 4900,
+          "width" : 6484
+        },
+        "on" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Saint-Hilaire-de-la-Celle",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Saint-Hilaire-de-la-Celle"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Former church Saint-Hilaire-de-la-Celle.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Former church Saint-Hilaire-de-la-Celle.</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T09:09:38",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645175378423",
+          "dcterms:modified" : "2022-02-18T09:09:38",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=2520,2673,300,507"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2520.49396,2673.4329h150.17975v0h150.17975v253.74255v253.74255h-150.17975h-150.17975v-253.74255z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_8c430a57-3572-4dd9-9921-502c1372ef04\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Tours (Indre-et-Loire)",
+            "@type" : "oa:Tag",
+            "chars" : "Tours (Indre-et-Loire)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:43:51",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188231034",
+          "dcterms:modified" : "2022-02-18T12:43:51",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3358,431,2648,1834"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3358.35749,430.6033h1324.23671v0h1324.23671v917.08696v917.08696h-1324.23671h-1324.23671v-917.08696z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b825c6ca-082e-4d71-ad38-acaa0f21ddc5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          }, {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3264,2107,2,2"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3263.6715,2106.54533h1v0h1v1v1h-1h-1v-1z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_f170cee4-aff2-4d60-917e-a7c250cb26b5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Saint-Pierre cathedral",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Saint-Pierre cathedral"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Western face of the Saint Peter cathedral.\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2014_-_Facade_of_Poitiers_Cathedral_01.JPG/320px-2014_-_Facade_of_Poitiers_Cathedral_01.JPG\" alt=\"\" width=\"320\" height=\"240\" />\n(<a href=\"https://commons.wikimedia.org/wiki/File:2014_-_Facade_of_Poitiers_Cathedral_01.JPG\" target=\"_blank\" rel=\"noopener\">Image link)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Western face of the Saint Peter cathedral.</p>\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2014_-_Facade_of_Poitiers_Cathedral_01.JPG/320px-2014_-_Facade_of_Poitiers_Cathedral_01.JPG\" alt=\"\" width=\"320\" height=\"240\" /></p>\n<p>(<a href=\"https://commons.wikimedia.org/wiki/File:2014_-_Facade_of_Poitiers_Cathedral_01.JPG\" target=\"_blank\" rel=\"noopener\">Image link</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T17:10:02",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645117802256",
+          "dcterms:modified" : "2022-02-17T17:10:02",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3142,2611,308,496"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3141.60406,2611.49447h154.18182v0h154.18182v247.81818v247.81818h-154.18182h-154.18182v-247.81818z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_84bb7f41-0186-4481-8375-308371cba0ef\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Sanit-Hilaire-le-Grand",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Sanit-Hilaire-le-Grand"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Former abbey church of St Hilary.\nThe remains of the great bell tower, fallen in 1590:\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/LrePoitiersStHilaire1.jpg/413px-LrePoitiersStHilaire1.jpg\" alt=\"\" width=\"413\" height=\"600\" />\n(<a href=\"https://commons.wikimedia.org/wiki/File:LrePoitiersStHilaire1.jpg?uselang=fr\" target=\"_blank\" rel=\"noopener\">Image link)\nThe depiction of the tower in a painting by Fran&ccedil;ois Nautr&eacute; in 1619:\n<img src=\"https://bases.alienor.org/bin/image.dll?FI&amp;ND|1048142&amp;CR|500&amp;VR|250&amp;AX|72&amp;AY|53&amp;FZ|12&amp;KP|awp&amp;KR|c79b59e9665a69b22704bf5945373945\" alt=\"\" width=\"500\" height=\"500\" />\n(Poitiers, Sainte-Croix museum, <a href=\"http://www.alienor.org/collections-des-musees/fiche-objet-40315-tableau-siege-de-poitiers-par-coligny-titre-factice-grand-plan-de-poitiers-titre-factice\" target=\"_blank\" rel=\"noopener\">link to the record of the work of art)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Former abbey church of St Hilary.</p>\n<p>The remains of the great bell tower, fallen in 1590:</p>\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/LrePoitiersStHilaire1.jpg/413px-LrePoitiersStHilaire1.jpg\" alt=\"\" width=\"413\" height=\"600\" /></p>\n<p>(<a href=\"https://commons.wikimedia.org/wiki/File:LrePoitiersStHilaire1.jpg?uselang=fr\" target=\"_blank\" rel=\"noopener\">Image link</a>)</p>\n<p>The depiction of the tower in a painting by Fran&ccedil;ois Nautr&eacute; in 1619:</p>\n<p><img src=\"https://bases.alienor.org/bin/image.dll?FI&amp;ND|1048142&amp;CR|500&amp;VR|250&amp;AX|72&amp;AY|53&amp;FZ|12&amp;KP|awp&amp;KR|c79b59e9665a69b22704bf5945373945\" alt=\"\" width=\"500\" height=\"500\" /></p>\n<p>(Poitiers, Sainte-Croix museum, <a href=\"http://www.alienor.org/collections-des-musees/fiche-objet-40315-tableau-siege-de-poitiers-par-coligny-titre-factice-grand-plan-de-poitiers-titre-factice\" target=\"_blank\" rel=\"noopener\">link to the record of the work of art</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T17:10:45",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645117845231",
+          "dcterms:modified" : "2022-02-17T17:10:45",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=2188,2520,282,383"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2188.47474,2903.93881h140.79834v0h140.79834v-191.73169v-191.73169h-140.79834h-140.79834v191.73169z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_25d5e485-2465-4a82-a559-6d76756da9dc\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "City door, wrongly tagged \"Porte de la Tranch&eacute;e\".",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>City door, wrongly tagged \"Porte de la Tranch&eacute;e\".</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T09:11:55",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645175515792",
+          "dcterms:modified" : "2022-02-18T09:11:55",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=2049,3190,236,245"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2048.54348,3190.13565h117.87802v0h117.87802v122.31643v122.31643h-117.87802h-117.87802v-122.31643z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b4f2951b-0b7a-40b6-84e8-a825523e64e0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers (Vienne)",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers (Vienne)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:42:28",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188148083",
+          "dcterms:modified" : "2022-02-18T12:42:28",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=473,2388,5564,1772"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M472.84577,2388.38289h2781.85301v0h2781.85301v885.9414v885.9414h-2781.85301h-2781.85301v-885.9414z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_07ce4fe9-fbae-4580-a37b-f61ff9a92bd6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Sainte-Radegonde",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Sainte-Radegonde"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "The depiction of Sainte-Radegonde and the cathedral in Fran&ccedil;ois Nautr&eacute; in 1619:<img src=\"https://bases.alienor.org/bin/image.dll?FI&amp;ND|1048142&amp;CR|500&amp;VR|250&amp;AX|122&amp;AY|72&amp;FZ|12&amp;KP|awp&amp;KR|836329ca3f0a657c9b629e78a38ccc9c\" alt=\"\" width=\"500\" height=\"500\" />\n(Poitiers, Sainte-Croix museum, <a href=\"http://www.alienor.org/collections-des-musees/fiche-objet-40315-tableau-siege-de-poitiers-par-coligny-titre-factice-grand-plan-de-poitiers-titre-factice\" target=\"_blank\" rel=\"noopener\">link to the record of the work of art)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>The depiction of Sainte-Radegonde and the cathedral in Fran&ccedil;ois Nautr&eacute; in 1619:<img src=\"https://bases.alienor.org/bin/image.dll?FI&amp;ND|1048142&amp;CR|500&amp;VR|250&amp;AX|122&amp;AY|72&amp;FZ|12&amp;KP|awp&amp;KR|836329ca3f0a657c9b629e78a38ccc9c\" alt=\"\" width=\"500\" height=\"500\" /></p>\n<p>(Poitiers, Sainte-Croix museum, <a href=\"http://www.alienor.org/collections-des-musees/fiche-objet-40315-tableau-siege-de-poitiers-par-coligny-titre-factice-grand-plan-de-poitiers-titre-factice\" target=\"_blank\" rel=\"noopener\">link to the record of the work of art</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:46:33",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645191993465",
+          "dcterms:modified" : "2022-02-18T13:46:33",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3101,2948,241,348"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3100.5467,3296.17021h120.31554v0h120.31554v-174.16537v-174.16537h-120.31554h-120.31554v174.16537z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_57d1f2ac-7ac3-4e55-ba6c-29e401b8ec75\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Notre-Dame-la-Grande",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Notre-Dame-la-Grande"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Bell tower of the chruch Notre-Dame-la-Grande.\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg/180px-Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg\" alt=\"\" width=\"180\" height=\"240\" />\n(<a href=\"https://commons.wikimedia.org/wiki/File:Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg\" target=\"_blank\" rel=\"noopener\">Image link)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Bell tower of the chruch Notre-Dame-la-Grande.</p>\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg/180px-Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg\" alt=\"\" width=\"180\" height=\"240\" /></p>\n<p>(<a href=\"https://commons.wikimedia.org/wiki/File:Poitiers_Clocher_Eglise_romane_Notre_Dame.jpg\" target=\"_blank\" rel=\"noopener\">Image link</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T17:09:10",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645117750072",
+          "dcterms:modified" : "2022-02-17T17:09:10",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=3553,2727,227,265"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3552.51315,2726.94902h113.27273v0h113.27273v132.36364v132.36364h-113.27273h-113.27273v-132.36364z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d4a17492-403a-46ca-9263-97aeb9b3d672\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Castle",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Castle"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Former castle of Poitiers, built in 1385, destroyed in 1591.\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg/472px-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg\" alt=\"\" width=\"472\" height=\"767\" />\n(<a href=\"https://commons.wikimedia.org/wiki/File:Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg?uselang=fr\" target=\"_blank\" rel=\"noopener\">Image link)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Former castle of Poitiers, built in 1385, destroyed in 1591.</p>\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg/472px-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg\" alt=\"\" width=\"472\" height=\"767\" /></p>\n<p>(<a href=\"https://commons.wikimedia.org/wiki/File:Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_juillet.jpg?uselang=fr\" target=\"_blank\" rel=\"noopener\">Image link</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-17T16:06:57",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645114017926",
+          "dcterms:modified" : "2022-02-17T16:06:57",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=4594,2862,276,344"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4594.25954,2862.01125h137.93454v0h137.93454v172.16818v172.16818h-137.93454h-137.93454v-172.16818z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c6af5613-a7f0-4855-84ba-f0661df9b465\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Clain (river)",
+            "@type" : "oa:Tag",
+            "chars" : "Clain (river)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "Erroneous orthograph: Glan, for the Clain river.<a href=\"https://dicotopo.cths.fr/places/P54561196\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record.",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Erroneous orthograph: Glan, for the Clain river.<br /><a href=\"https://dicotopo.cths.fr/places/P54561196\" target=\"_blank\" rel=\"noopener\">DicoTopo: link to record</a>.</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:42:01",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188121046",
+          "dcterms:modified" : "2022-02-18T12:42:01",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1810,3590,323,149"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1809.96973,3590.44555h161.56932v0h161.56932v74.40312v74.40312h-161.56932h-161.56932v-74.40312z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7c71d0ff-d6ff-498f-aa58-bd55b764feb2\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Montpellier (Hérault)",
+            "@type" : "oa:Tag",
+            "chars" : "Montpellier (Hérault)"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T12:42:53",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645188173363",
+          "dcterms:modified" : "2022-02-18T12:42:53",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=453,441,2771,1828"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3223.56146,2269.1675h-1385.31687v0h-1385.31687v-914.07873v-914.07873h1385.31687h1385.31687v914.07873z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ceae0857-b5fe-4530-a434-8bc09c178605\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://29ba2561-061f-485d-a423-723e67d2b2c1"
+          } ]
+        } ],
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/148825cd629be207fd48ef8bc9803640.json",
+        "@context" : "http://iiif.io/api/presentation/2/context.json"
+      } ]
+    }, {
+      "@id" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d",
+      "@type" : "sc:Canvas",
+      "label" : "City view of Poitiers by L. Boudan",
+      "height" : 5600,
+      "width" : 7264,
+      "metadata" : [ {
+        "label" : "Repository",
+        "value" : "Bibliothèque nationale de France"
+      }, {
+        "label" : "Sources Images",
+        "value" : "https://gallica.bnf.fr/ark:/12148/btv1b6902610x"
+      }, {
+        "label" : "Shelfmark",
+        "value" : "Bibliothèque nationale de France, département Estampes et photographie, EST VA-427"
+      }, {
+        "label" : "Title",
+        "value" : "Veüe de la ville de Poictiers, capitalle de Poictou, dessiné du haut de l'Abbaye de St Cyprien // 1699 / [by Louis Boudan]"
+      }, {
+        "label" : "Date",
+        "value" : "1699"
+      }, {
+        "label" : "Format",
+        "value" : "Watercolor; 46 x 60,5 cm (whole), 41,1 x 55,8 cm (drawing)"
+      }, {
+        "label" : "Creator",
+        "value" : "Boudan, Louis (16..-17..)"
+      }, {
+        "label" : "Type",
+        "value" : "City view"
+      }, {
+        "label" : "Relation",
+        "value" : "Belongs to the Gaignières collection; 5982"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fa2cb7bf-fa2c-4f53-8c60-5abf7cbf809c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902610x/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902610x/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 5600,
+          "width" : 7264
+        },
+        "on" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "resources" : [ {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Saint-Hilaire-le-Grand",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Saint-Hilaire-le-Grand"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "View of the abbey church of Saint-Hilaire by the same Louis Boudan (1699):\n<img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b69025199/f1/full/350/0/native.jpg\" alt=\"\" width=\"350\" height=\"399\" />\n(<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b69025199\" target=\"_blank\" rel=\"noopener\">Image source)\n&nbsp;",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>View of the abbey church of Saint-Hilaire by the same Louis Boudan (1699):</p>\n<p><img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b69025199/f1/full/350/0/native.jpg\" alt=\"\" width=\"350\" height=\"399\" /></p>\n<p>(<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b69025199\" target=\"_blank\" rel=\"noopener\">Image source</a>)</p>\n<p>&nbsp;</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:36:24",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645191384475",
+          "dcterms:modified" : "2022-02-18T13:36:24",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=1280,2833,543,461"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1280.05116,2832.7459h271.32204v0h271.32204v230.60407v230.60407h-271.32204h-271.32204v-230.60407z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5aacdc1e-f202-4100-8306-1aa885127ce0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Ruins of the roman amphitheater of Poitiers, by the same L. Boudan (1699):\n<img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902531r/f1/full/400/0/native.jpg\" alt=\"\" width=\"400\" height=\"454\" />\n(<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b6902531r\" target=\"_blank\" rel=\"noopener\">Image source)\nThe remains of the amphitheater today:\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Amphi_Poitiers.JPG/360px-Amphi_Poitiers.JPG\" alt=\"\" width=\"360\" height=\"480\" />\n(<a href=\"https://commons.wikimedia.org/wiki/File:Amphi_Poitiers.JPG\" target=\"_blank\" rel=\"noopener\">Image source)",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : "<p>Ruins of the roman amphitheater of Poitiers, by the same L. Boudan (1699):</p>\n<p><img src=\"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6902531r/f1/full/400/0/native.jpg\" alt=\"\" width=\"400\" height=\"454\" /></p>\n<p>(<a href=\"https://gallica.bnf.fr/ark:/12148/btv1b6902531r\" target=\"_blank\" rel=\"noopener\">Image source</a>)</p>\n<p>The remains of the amphitheater today:</p>\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Amphi_Poitiers.JPG/360px-Amphi_Poitiers.JPG\" alt=\"\" width=\"360\" height=\"480\" /></p>\n<p>(<a href=\"https://commons.wikimedia.org/wiki/File:Amphi_Poitiers.JPG\" target=\"_blank\" rel=\"noopener\">Image source</a>)</p>"
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:43:05",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645191785590",
+          "dcterms:modified" : "2022-02-18T13:43:05",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=2603,2932,353,269"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2603.38498,2932.2787h176.31345v0h176.31345v134.46444v134.46444h-176.31345h-176.31345v-134.46444z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_25b6d7bd-e66c-4931-af48-3cfb6f786e81\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Notre-Dame-la-Grande",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Notre-Dame-la-Grande"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:43:41",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645191821058",
+          "dcterms:modified" : "2022-02-18T13:43:41",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=5126,2836,172,462"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5126.47812,2836.00765h85.82909v0h85.82909v230.98109v230.98109h-85.82909h-85.82909v-230.98109z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ec615954-c6b6-48f3-aeba-22e8d49da405\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+          } ]
+        }, {
+          "resource" : [ {
+            "http://dev.llgc.org.uk/sas/full_text" : "Poitiers, Saint-Pierre cathedral",
+            "@type" : "oa:Tag",
+            "chars" : "Poitiers, Saint-Pierre cathedral"
+          }, {
+            "http://dev.llgc.org.uk/sas/full_text" : "",
+            "@type" : "dctypes:Text",
+            "format" : "text/html",
+            "chars" : ""
+          } ],
+          "@type" : "oa:Annotation",
+          "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/92872718",
+          "motivation" : [ "oa:tagging", "oa:commenting" ],
+          "dcterms:created" : "2022-02-18T13:44:01",
+          "@id" : "https://dev.gdmrdigital.com/annotation/anno/1645191841777",
+          "dcterms:modified" : "2022-02-18T13:44:01",
+          "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+          "on" : [ {
+            "within" : {
+              "@type" : "sc:Manifest",
+              "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story.json"
+            },
+            "@type" : "oa:SpecificResource",
+            "selector" : {
+              "default" : {
+                "@type" : "oa:FragmentSelector",
+                "value" : "xywh=5889,2891,603,610"
+              },
+              "item" : {
+                "@type" : "oa:SvgSelector",
+                "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5889.06627,2890.90731h301.6343v0h301.6343v305.02746v305.02746h-301.6343h-301.6343v-305.02746z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_8d4aaea7-16e4-486b-ad50-bcd92eda9860\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              },
+              "@type" : "oa:Choice"
+            },
+            "full" : "http://32e45d7e-3244-4e3a-a71f-379304054c7d"
+          } ]
+        } ],
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/92872718/061b39e3e0d60a0b3239c2f1d3160bb1.json",
+        "@context" : "http://iiif.io/api/presentation/2/context.json"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "service" : [ {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/92872718/c6accd392fc82f99491cd1be3a703be7/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }, {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/92872718/83f851d557f38515eef8759e00dfc826/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  } ]
+}
