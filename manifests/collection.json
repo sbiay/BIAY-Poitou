@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story-2022-02-18-0836.json",
     "label" : "A Visual History of Poitou in the Seventeeth Century"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/story-2022-02-18-0856.json",
+    "label" : "A Visual History of Poitou in the Seventeeth Century"
   } ]
 }
