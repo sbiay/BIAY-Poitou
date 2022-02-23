@@ -1,0 +1,131 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sbiay.github.io/BIAY-Poitou/manifests/disney.json",
+  "@type" : "sc:Manifest",
+  "label" : "A Year at Disneyland Paris' main entrance",
+  "metadata" : [ {
+    "label" : "Context Title",
+    "value" : "Master's Degree 'Technologies numériques appliquées à l'histoire' : IIIF Assignement"
+  } ],
+  "description" : [ {
+    "@value" : "Photographs of Main Street Station, Disneyland Paris' main entrance. Main Street Station's decorations change several times each year according to the season.",
+    "@language" : "en"
+  } ],
+  "viewingHint" : "paged",
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Photographs taken by Anaïs Mazoué in 2020 and 2021 and by the DLP Report team in 2022.",
+  "sequences" : [ {
+    "@id" : "http://2e76dc65-cfde-4217-8870-cf6411d4fe20",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://0d72309f-36e0-4c1c-9bcd-7f6e1bf11bf4",
+      "@type" : "sc:Canvas",
+      "label" : "Disney_Summer",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://723f0a90-5a65-4cd6-ac72-e72659ce02c9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Summer/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Summer",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://0d72309f-36e0-4c1c-9bcd-7f6e1bf11bf4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2b5adcb9-f796-483a-9078-260f3990f017",
+      "@type" : "sc:Canvas",
+      "label" : "Disney_Fall",
+      "height" : 2846,
+      "width" : 3794,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e0ac10b8-0f24-4421-a821-84b3025a34ae",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Fall/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Fall",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2846,
+          "width" : 3794
+        },
+        "on" : "http://2b5adcb9-f796-483a-9078-260f3990f017"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://81362f99-4543-40c3-89a9-1d42bf341b96",
+      "@type" : "sc:Canvas",
+      "label" : "Disney_Winter",
+      "height" : 1824,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c1b9edeb-b82a-4854-b00d-f6a84f6e7f72",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Winter/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Winter",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1824,
+          "width" : 3024
+        },
+        "on" : "http://81362f99-4543-40c3-89a9-1d42bf341b96"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b843b6cb-b400-493f-addc-2ac3fa5a143a",
+      "@type" : "sc:Canvas",
+      "label" : "Disney_Spring",
+      "height" : 1185,
+      "width" : 1975,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7feb0f7b-4b17-41f3-8e1e-583a510cab10",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Spring/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://anaismazoue.github.io/M2-IIIFProject/images/Disney_Spring",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1185,
+          "width" : 1975
+        },
+        "on" : "http://b843b6cb-b400-493f-addc-2ac3fa5a143a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
